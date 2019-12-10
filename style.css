@@ -1,1 +1,19 @@
-* {background-color: rgb(43, 226, 226);}
+body {background-color: rgb(43, 226, 226);}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 96%;
+}
+
+@media all and (min-width: 600px) {
+    .container {
+        width: 80%; 
+    }
+}
+
+@media all and (min-width: 768px) {
+    .container {
+        width: 70%; 
+    }
+}
