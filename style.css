@@ -6,6 +6,7 @@
 
  h1 {
     font-family: "Playfair Display", serif;
+    font-weight: bold;
     font-size: 3.5rem;
     width: 100%;
     line-height: 150%;
@@ -32,6 +33,7 @@
     font-weight: normal;
     margin-bottom: auto;
     line-height: 150%;
+    color: #D9EFFF
   }
 
   p {
@@ -61,12 +63,18 @@ section {
 
 .hero {
   color: white;
-  background-image: url('/images/Bg.png');
-  height: 100vh;
+  background-image: url('/images/Bg_hero.png');
+  object-fit: cover;
+  height: 130vh;
 }
 
 .hero_text {
-  padding-top: 20rem;
+  padding-top: 16rem;
+}
+
+.hero_tagline {
+  padding-top: 1.5rem;
+  color: #D9EFFF
 }
 
 .hero_video{
@@ -74,6 +82,7 @@ section {
     text-align: center;
     display: block;
     margin-bottom: 10rem;
+    padding-top: 4rem;
 }
 
 .outcome {
