@@ -1,9 +1,71 @@
-body {background-color: rgb(43, 226, 226);}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+:root {
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+
+ h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    width: 100%;
+      }
+
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    }
+
+  h6 {
+    font-family: "Open Sans", serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: auto;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    }
+
+p.bold {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: auto;
+    }
+
+body {background-color: rgb(255, 255, 255);
+    }
 
 .container {
     background-color: white;
-    margin: 0 auto;
     width: 96%;
+    padding-top: 272px
+}
+
+.hero_video{
+    width: 96%;
+    text-align: center;
+    display: block;
+}
+
+.outcome {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 56px;
+  width: 100%;
+  margin-top: 96px;
+}
+
+.Overview {
+margin-top: 56px;
+
 }
 
 @media all and (min-width: 600px) {
