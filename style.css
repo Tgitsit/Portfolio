@@ -8,6 +8,7 @@
     font-family: "Playfair Display", serif;
     font-size: 3.5rem;
     width: 100%;
+    line-height: 150%;
       }
 
   h3 {
@@ -15,6 +16,7 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     width: 100%;
+    line-height: 150%;
     }
 
   h5 {
@@ -22,12 +24,14 @@
     font-size: 0.75rem;
     margin-bottom: auto;
     width: 100%;
+    line-height: 150%;
         }    
   h6 {
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: auto;
+    line-height: 150%;
   }
 
   p {
@@ -35,13 +39,7 @@
     font-size: 1rem;
     font-weight: normal;
     margin-bottom: 1rem;
-    }
-
-p.bold {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: auto;
+    line-height: 150%;
     }
 
 
@@ -62,8 +60,8 @@ section {
 }
 
 .hero {
-  background-color: #000;
-  color: #fff;
+  color: white;
+  background-image: url('/images/Bg.png');
   height: 100vh;
 }
 
@@ -102,11 +100,11 @@ section {
 
 @media all and (min-width: 768px) {
     .container {
-        width: 70%; 
+        width: 75%; 
     }
 
     .single_col {
-      width: 60%;
+      width: 75%;
       margin: 0 auto;
     }
 }
