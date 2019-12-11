@@ -19,8 +19,14 @@
     width: 100%;
     }
 
+  h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.75rem;
+    margin-bottom: auto;
+    width: 100%;
+        }    
   h6 {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: auto;
@@ -39,6 +45,7 @@ p.bold {
     font-weight: bold;
     margin-bottom: auto;
     }
+
 
 body {background-color: rgb(255, 255, 255);
     }
