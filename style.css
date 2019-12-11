@@ -2,8 +2,6 @@
 
 :root {
     font-size: 16px;
-    margin-left: 150px;
-    margin-right: 150px;
     }
 
  h1 {
@@ -47,19 +45,37 @@ p.bold {
     }
 
 
-body {background-color: rgb(255, 255, 255);
+body { background-color: rgb(255, 255, 255);
     }
 
 .container {
-    background-color: white;
     width: 96%;
-    padding-top: 272px
+    margin: 0 auto;
+}
+
+.single_col {
+    width: 100%;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.hero {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+}
+
+.hero_text {
+  padding-top: 20rem;
 }
 
 .hero_video{
-    width: 96%;
+    width: 100%;
     text-align: center;
     display: block;
+    margin-bottom: 10rem;
 }
 
 .outcome {
@@ -67,11 +83,11 @@ body {background-color: rgb(255, 255, 255);
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 56px;
   width: 100%;
-  margin-top: 96px;
+  margin-top: 400px;
 }
 
-.Overview {
-  margin-top: 56px;
+.overview {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 56px;
@@ -87,5 +103,10 @@ body {background-color: rgb(255, 255, 255);
 @media all and (min-width: 768px) {
     .container {
         width: 70%; 
+    }
+
+    .single_col {
+      width: 60%;
+      margin: 0 auto;
     }
 }
