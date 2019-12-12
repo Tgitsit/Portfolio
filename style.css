@@ -10,14 +10,17 @@
     font-size: 3.5rem;
     width: 100%;
     line-height: 150%;
+    color: #0F358E;
       }
 
   h3 {
     font-family: "Playfair Display", serif;
     font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 1rem;
     width: 100%;
     line-height: 150%;
+    color: #0F358E;
     }
 
   h5 {
@@ -42,6 +45,7 @@
     font-weight: normal;
     margin-bottom: 1rem;
     line-height: 150%;
+    color: #303030;
     }
 
 
@@ -70,6 +74,7 @@ section {
 
 .hero_text {
   padding-top: 16rem;
+  color: white;
 }
 
 .hero_tagline {
@@ -88,9 +93,33 @@ section {
 .outcome {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 56px;
+  grid-gap: 1.25rem;
   width: 100%;
-  margin-top: 400px;
+  margin-top: 20rem;
+}
+
+.outcome_one {
+  border-radius: 20px;
+  border: 1px solid #176BEF;
+  padding: 3.5rem;
+  width: 19rem;
+  height: 19rem;
+}
+
+.outcome_two {
+  border-radius: 20px;
+  border: 1px solid #176BEF;
+  padding: 3.5rem;
+  width: 19rem;
+  height: 19rem;
+}
+
+.outcome_three {
+  border-radius: 20px;
+  border: 1px solid #176BEF;
+  padding: 3.5rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .overview {
