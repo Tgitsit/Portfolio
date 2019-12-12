@@ -48,6 +48,10 @@
     color: #303030;
     }
 
+figcaption {
+  color: #000;
+  margin-top: 10px;
+}
 
 body { background-color: rgb(255, 255, 255);
     }
@@ -69,12 +73,26 @@ section {
   color: white;
   background-image: url('/images/Bg_hero.png');
   object-fit: cover;
-  height: 130vh;
+  height: 70vh;
+}
+
+.hero-head {
+  color: #fff;
 }
 
 .hero_text {
-  padding-top: 16rem;
+  padding-top: 4rem;
   color: white;
+}
+
+@media all and (min-width: 768px) {
+  .hero {
+    height: 110vh;
+  }
+
+  .hero_text {
+    padding-top: 16rem;
+  }
 }
 
 .hero_tagline {
@@ -83,11 +101,25 @@ section {
 }
 
 .hero_video{
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     display: block;
     margin-bottom: 10rem;
     padding-top: 4rem;
+}
+
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 .outcome {
@@ -104,6 +136,17 @@ section {
   padding: 3.5rem;
   width: 19rem;
   height: 19rem;
+}
+
+.icon_award {
+  background-image: url("images/Icon_Award.png");
+  background-size: cover;
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  margin: -95px 0 0 -20px;
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .6);
 }
 
 .outcome_two {
