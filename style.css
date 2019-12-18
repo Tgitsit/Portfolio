@@ -11,6 +11,7 @@
     width: 100%;
     line-height: 150%;
     color: #0F358E;
+    margin-bottom: 2.5rem;
       }
 
   h3 {
@@ -23,6 +24,15 @@
     color: #0F358E;
     }
 
+ h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    font-weight: normal;
+    width: 100%;
+    line-height: 150%;
+    color: #0F358E;
+      }
+  
   h5 {
     font-family: "Open Sans", sans-serif;
     font-size: 0.75rem;
@@ -43,14 +53,31 @@
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     font-weight: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 150%;
     color: #303030;
     }
 
 figcaption {
-  color: #000;
+  color: #303030;
   margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 00.75rem;
+  font-weight: lighter;
+}
+
+li{
+  font-family: "Open Sans", sans-serif ;
+  font-size: 0.75rem;
+  margin-bottom: auto;
+  width: 100%;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+mark.blue {
+  color:#0F358E;
+  background: none;
 }
 
 body { background-color: rgb(255, 255, 255);
@@ -71,13 +98,18 @@ section {
 
 .hero {
   color: white;
-  background-image: url('/images/Bg_hero.png');
+  background-image: url('/images/Bg.png');
   object-fit: cover;
   height: 70vh;
 }
 
 .hero-head {
   color: #fff;
+  margin-bottom: 0;
+}
+
+.hero_p {
+  color: #D9EFFF;
 }
 
 .hero_text {
@@ -87,7 +119,7 @@ section {
 
 @media all and (min-width: 768px) {
   .hero {
-    height: 110vh;
+    height: 130vh;
   }
 
   .hero_text {
@@ -127,7 +159,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1.25rem;
   width: 100%;
-  margin-top: 20rem;
+  margin-top: 18rem;
 }
 
 .outcome_one {
@@ -138,7 +170,12 @@ section {
   height: 19rem;
 }
 
-.icon_award {
+.outcome img {
+  position: absolute;
+  margin: -90 0 0 -5;
+}
+
+/*.icon_award {
   background-image: url("images/Icon_Award.png");
   background-size: cover;
   border-radius: 35px;
@@ -148,6 +185,7 @@ section {
   margin: -95px 0 0 -20px;
   box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, .6);
 }
+*/
 
 .outcome_two {
   border-radius: 20px;
