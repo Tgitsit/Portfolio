@@ -67,6 +67,7 @@ figcaption {
   font-family: "Open Sans", sans-serif;
   font-size: 00.75rem;
   font-weight: lighter;
+  text-align: center;
 }
 
 li{
@@ -211,7 +212,6 @@ section {
 .newoverview {
   margin-top: 5rem;
   background-color: #E5E5E5;
-  height: 70vh;
 }
 
 .overview {
