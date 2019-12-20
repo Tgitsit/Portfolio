@@ -123,6 +123,22 @@ section {
   text-align: center;
 }
 
+.grid_heading{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.grid_title{
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.grid_p {
+  color: #D9EFFF;
+  text-align: left;
+}
+
 @media all and (min-width: 768px) {
   .hero {
     height: 130vh;
@@ -229,6 +245,15 @@ section {
   width: 100%;
 }
 
+.style {
+  margin-top: 5rem;
+  background-image: url(images/Style_BG.svg);
+}
+
+.grid_hero_icon {
+  margin-top:3.5rem;
+}
+
 @media all and (min-width: 600px) {
     .container {
         width: 80%; 
@@ -244,4 +269,29 @@ section {
       width: 80%;
       margin: 0 auto;
     }
+}
+.style_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.25rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.style_one {
+  padding: 2rem;
+  width: 21rem;
+ 
+}
+
+.style_two {
+  padding: 2rem;
+  width: 21rem;
+  
+}
+
+.style_three {
+  padding: 2rem;
+  width: 21rem;
+  
 }
