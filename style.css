@@ -25,6 +25,7 @@
     color: #0F358E;
     }
 
+
  h4 {
     font-family: "Playfair Display", serif;
     font-size: 1rem;
@@ -60,6 +61,14 @@
     line-height: 150%;
     color: #303030;
     }
+
+.italic {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: center;
+}
 
 figcaption {
   color: #303030;
@@ -193,6 +202,15 @@ section {
   width: 100%;
 }
 
+.ricktestimonial {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 56px;
+  width: 100%;
+}
+
+
 .right_column {
   margin-top: 7px;
   display: grid;
@@ -300,3 +318,19 @@ section {
   grid-gap: 1.3rem
  }
 
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wewon {
+  background-color: black;
+}
+
+.davey_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1.3rem
+ }
