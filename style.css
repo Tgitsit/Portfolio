@@ -212,6 +212,11 @@ section {
   background-image: url(images/Style_BG.svg);
 }
 
+.goalsachieved {
+  margin-top: 5rem;
+  background-image: url(images/Style_BG.svg);
+}
+
 .grid_hero_icon {
   margin-top:3.54rem;
 }
@@ -263,11 +268,12 @@ section {
   width: 100%;
  }
 
- .stopmotion_grid {
+.two_vid_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.3rem;
  }
+
 
  .open {
   margin-top: 5rem;
@@ -287,3 +293,10 @@ section {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.3rem;
  }
+
+ .change_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.3rem
+ }
+
