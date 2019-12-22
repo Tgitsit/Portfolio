@@ -281,3 +281,9 @@ section {
   width: 100%;
   margin-top: 2rem;
 }
+
+.inspiration_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1.3rem;
+ }
