@@ -279,7 +279,7 @@ section {
   width: 21rem;
 }
 
-.visual_direction_images {
+.four_row_images_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0.30rem;
