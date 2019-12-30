@@ -97,7 +97,7 @@ body {
     }
 
 .container {
-    width: 96%;
+    width: 92%;
     margin: 0 auto;
 }
 
@@ -106,13 +106,13 @@ body {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
 
 .hero {
   color: white;
   background-image: url('/images/Bg.png');
-  object-fit: cover;
+  background-size: cover;
   height: 70vh;
 }
 
@@ -186,7 +186,6 @@ section {
 }
 
 .newoutcome {
-  margin-top: 5rem;
   background-image: url(images/OutcomeBg.svg);
 }
 
@@ -225,18 +224,14 @@ section {
   margin-top: 8rem;
 }
 
-.style {
+.style, .open, .goalsachieved, .newoutcome {
   margin-top: 5rem;
+  padding: 5rem 0 3rem 0;
   background-image: url(images/Style_BG.svg);
 }
 
 .goalsachieved {
-  margin-top: 5rem;
   background-image: url(images/Style_BG.svg);
-}
-
-.grid_hero_icon {
-  margin-top:3.54rem;
 }
 
 @media all and (min-width: 600px) {
@@ -255,28 +250,18 @@ section {
       margin: 0 auto;
     }
 }
-.style_grid {
+.style_grid, .open_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1.25rem;
   width: 100%;
   margin-top: 2rem;
 }
 
-.style_one {
-  padding: 2rem;
-  width: 21rem;
- 
-}
-
-.style_two {
-  padding: 2rem;
-  width: 21rem;
-}
-
-.style_three {
-  padding: 2rem;
-  width: 21rem;
+@media all and (min-width: 568px) {
+  .style_grid, .open_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .four_row_images_grid {
@@ -294,16 +279,7 @@ section {
 
 
  .open {
-  margin-top: 5rem;
   background-image: url(images/OpeningShot_Bg.svg);
-}
-
- .open_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1.3rem;
-  width: 100%;
-  margin-top: 2rem;
 }
 
 .inspiration_grid {
