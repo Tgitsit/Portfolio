@@ -1,0 +1,22 @@
+<svg width="1440" height="928" viewBox="0 0 1440 928" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="928" fill="url(#paint0_linear)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="928">
+<rect width="1440" height="928" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<g style="mix-blend-mode:screen" opacity="0.1">
+<rect x="196.106" y="-194" width="1000" height="1000" rx="100" transform="rotate(45 196.106 -194)" fill="#1256BF"/>
+<rect x="196.106" y="-194" width="1000" height="1000" rx="100" transform="rotate(45 196.106 -194)" stroke="url(#paint1_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="720" y1="-464" x2="-125.108" y2="847.375" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FB3331"/>
+<stop offset="1" stop-color="#F42B29"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="696.106" y1="-694" x2="-303.894" y2="306" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FB3331"/>
+<stop offset="1" stop-color="#F42B29"/>
+</linearGradient>
+</defs>
+</svg>
