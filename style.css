@@ -270,9 +270,8 @@ section {
 
 .six_col_images_grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);;
-  grid-gap: 1rem;
-  width: 50%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 3rem;
 }
 
 .four_row_images_grid {
@@ -297,6 +296,10 @@ section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.3rem;
+ }
+
+ .inspiration_img_1 {
+   object-fit: contain;
  }
 
  .change_grid {
