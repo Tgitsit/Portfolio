@@ -203,7 +203,9 @@ section {
 }
 
 .newoutcome {
-  background-image: url(images/OutcomeBg.svg);
+  background-image: url(images/Outcome_BG.svg);
+  margin-top: 5rem;
+  padding: 5rem 0 3rem 0;
 }
 
 .newoverview {
@@ -245,7 +247,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.style, .open, .goalsachieved, .newoutcome {
+.style, .open, .goalsachieved {
   margin-top: 5rem;
   padding: 5rem 0 3rem 0;
   background-image: url(images/Style_BG.svg);
