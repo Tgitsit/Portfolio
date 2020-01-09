@@ -1,0 +1,27 @@
+<svg width="1440" height="940" viewBox="0 0 1440 940" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="1440" height="940" fill="white"/>
+<rect width="1440" height="940" fill="url(#paint0_linear)"/>
+<g style="mix-blend-mode:screen" opacity="0.1">
+<rect x="288.107" y="101" width="1000" height="1000" rx="100" transform="rotate(45 288.107 101)" fill="#1B236D"/>
+</g>
+<g style="mix-blend-mode:screen" opacity="0.1">
+<rect x="1377.11" y="-413" width="1000" height="1000" rx="100" transform="rotate(45 1377.11 -413)" fill="#1B236D"/>
+<rect x="1377.11" y="-413" width="1000" height="1000" rx="100" transform="rotate(45 1377.11 -413)" fill="white" fill-opacity="0.1"/>
+</g>
+<rect x="1310.11" y="65" width="1000" height="1000" rx="100" transform="rotate(45 1310.11 65)" fill="url(#paint1_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="720" y1="0" x2="720" y2="940" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1B236D"/>
+<stop offset="1" stop-color="#0A134F"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1810.11" y1="-435" x2="810.107" y2="565" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FB3331"/>
+<stop offset="1" stop-color="#F42B29"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="1440" height="940" fill="white"/>
+</clipPath>
+</defs>
+</svg>

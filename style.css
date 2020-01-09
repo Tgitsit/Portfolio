@@ -59,7 +59,7 @@
     font-weight: normal;
     margin-bottom: 2rem;
     line-height: 150%;
-    color: #303030;
+    color: #595F6F;
     }
 
 .italic {
@@ -208,7 +208,7 @@ section {
 }
 
 .ricktestimonial {
-  padding: 10px;
+  margin:100px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 56px;
@@ -332,7 +332,7 @@ section {
 }
 
 .wewon {
-  background-image: url(images/Award_BG.svg);
+  background-image: url(images/Award_newBg.svg);
 }
 
 .davey_grid {
