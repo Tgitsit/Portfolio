@@ -5,39 +5,50 @@
     }
 
  h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    font-size: 3.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    font-size: 3rem;
     width: 100%;
     line-height: 150%;
-    color: #0F358E;
+    color: #1A47B0;
     margin-bottom: 2.5rem;
     text-align: center;
       }
 
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    width: 100%;
+    line-height: 150%;
+    color: #1A47B0;
+    margin-bottom: 2.5rem;
+    text-align: center;
+      }   
+
   h3 {
-    font-family: "Playfair Display", serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: lighter;
     margin-bottom: 1rem;
     width: 100%;
     line-height: 150%;
-    color: #0F358E;
+    color: #1A47B0;
     }
 
 
  h4 {
-    font-family: "Playfair Display", serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: normal;
     width: 100%;
     line-height: 100%;
     margin-bottom: 1em;
-    color: #0F358E;
+    color: #1A47B0;
       }
   
   h5 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 0.75rem;
     width: 100%;
     line-height: 150%;
@@ -45,16 +56,16 @@
       }    
         
   h6 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
-    font-weight: normal;
+    font-weight: lighter;
     margin-bottom: auto;
     line-height: 150%;
-    color: #D9EFFF
+    color: #75B8F1
   }
 
   p {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: normal;
     margin-bottom: 2rem;
@@ -63,7 +74,7 @@
     }
 
 .italic {
-  font-weight: normal;
+  font-weight: lighter;
   font-style: italic;
   font-size: 1.1rem;
   line-height: 2rem;
@@ -71,16 +82,16 @@
 }
 
 figcaption {
-  color: #303030;
+  color: #595F6F;
   margin-top: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 00.75rem;
   font-weight: lighter;
   text-align: center;
 }
 
 li{
-  font-family: "Open Sans", sans-serif ;
+  font-family: "Roboto", sans-serif ;
   font-size: 0.75rem;
   margin-bottom: 5px;
   width: 100%;
@@ -88,7 +99,7 @@ li{
 }
 
 mark.blue {
-  color:#0F358E;
+  color:#1A47B0;
   background: none;
 }
 
@@ -111,7 +122,7 @@ section {
 
 .hero {
   color: white;
-  background-image: url('/images/Bg.png');
+  background-image: url('/images/Hero_BG.svg');
   background-size: cover;
   height: 70vh;
 }
