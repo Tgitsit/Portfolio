@@ -30,12 +30,16 @@
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: lighter;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     width: 100%;
     line-height: 150%;
     color: #1A47B0;
     }
-
+  
+    .subhead {
+      margin-bottom: 1.5rem;
+      font-weight: normal;
+    }
 
  h4 {
     font-family: "Roboto", sans-serif;
@@ -79,6 +83,7 @@
   font-size: 1.1rem;
   line-height: 2rem;
   text-align: center;
+  padding-top: 2rem;
 }
 
 figcaption {
@@ -225,7 +230,7 @@ div.stopmotion, div.inspiration {
 }
 
 .newoverview {
-  margin-top: 15rem;
+  margin-top: 12rem;
 }
 
 .overview {
@@ -251,9 +256,9 @@ div.stopmotion, div.inspiration {
   grid-gap: 10px;
   width: 100%;
 }
-/* .tools {
-  margin-top: 8rem;
-} */
+.tools, .challenge, .whatwelearned {
+  margin-top: 2rem;
+} 
 
 /* .storyboard {
   margin-top: 8rem;
@@ -267,6 +272,11 @@ div.stopmotion, div.inspiration {
   margin-top: 5rem;
   padding: 5rem 0 3rem 0;
   background-image: url(images/Style_BG.svg);
+}
+
+.testimonial {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
 }
 
 .goalsachieved {
@@ -337,12 +347,15 @@ div.stopmotion, div.inspiration {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0.30rem;
   width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
  }
 
 .two_vid_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.3rem;
+  padding: 2rem;
  }
 
 
@@ -354,6 +367,7 @@ div.stopmotion, div.inspiration {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.3rem;
+  padding: 2em;
  }
 
  .inspiration_img_1 {
