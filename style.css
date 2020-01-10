@@ -368,6 +368,15 @@ div.stopmotion, div.inspiration {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1.3rem;
   padding: 2em;
+  grid-template-areas: chief video
+                       cap cap2;
+ }
+
+ .chief {
+   height: 100%;
+   grid-area: chief;
+   background-size: cover;
+   background-image: url(images/Maori_Resized.png);
  }
 
  .inspiration_img_1 {
