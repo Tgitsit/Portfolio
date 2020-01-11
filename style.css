@@ -195,7 +195,7 @@ section {
 
 .hero {
   color: white;
-  background-image: url('/images/Hero_BG.svg');
+  background-image: url(images/Hero_BG.svg);
   background-size: cover;
   height: 70vh;
 }
