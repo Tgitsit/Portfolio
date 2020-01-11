@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
+
+
+
+
+/*  Fonts and Color*/
+
+body { 
+  background-color: rgb(255, 255, 255);
+    }
+
 :root {
     font-size: 16px;
     }
@@ -40,6 +50,17 @@
       margin-bottom: 1.5rem;
       font-weight: normal;
     }
+
+    .onepercent {
+      margin-top: 4rem;
+      margin-bottom: 1.5rem;
+      font-weight: normal;
+    }
+
+    .process_image {
+      margin-top: 4rem;
+    }
+
 
  h4 {
     font-family: "Roboto", sans-serif;
@@ -108,30 +129,6 @@ mark.blue {
   background: none;
 }
 
-body { 
-  background-color: rgb(255, 255, 255);
-    }
-
-.container {
-    width: 92%;
-    margin: 0 auto;
-}
-
-.single_col {
-    width: 100%;
-}
-
-section {
-  padding: 5rem 0 0 0;
-}
-
-.hero {
-  color: white;
-  background-image: url('/images/Hero_BG.svg');
-  background-size: cover;
-  height: 70vh;
-}
-
 .hero-head {
   color: #fff;
   margin-bottom: 1rem;
@@ -148,20 +145,54 @@ section {
   text-align: center;
 }
 
-.grid_heading{
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+
+
+/* divs */
+
+.video {
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
 }
 
-.grid_title{
-  color: #fff;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
-.grid_p {
-  color: #D9EFFF;
-  text-align: left;
+/* containers */
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.single_col {
+  width: 100%;
+}
+
+/*////////////// sections /////////////////////*/
+
+section {
+  padding: 5rem 0 0 0;
+}
+
+/* HERO */
+
+.hero {
+  color: white;
+  background-image: url('/images/Hero_BG.svg');
+  background-size: cover;
+  height: 70vh;
 }
 
 @media all and (min-width: 768px) {
@@ -187,6 +218,27 @@ section {
     padding-top: 4rem;
 }
 
+
+
+/*////////////// grids /////////////////////*/
+
+.grid_heading{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.grid_title{
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.grid_p {
+  color: #D9EFFF;
+  text-align: left;
+}
+
+
 audio {
   display: block;
   margin: 0 auto;
@@ -203,25 +255,7 @@ div.stopmotion, div.inspiration {
   margin-bottom: 2rem;
 }
 
-.video {
-  text-align: center;
-  display: block;
-  margin-bottom: 2rem;
-}
 
-.video-responsive {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.video-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
 
 .newoutcome {
   background-image: url(images/Outcome_BG.svg);
@@ -259,10 +293,6 @@ div.stopmotion, div.inspiration {
 .tools, .challenge, .takeaways {
   margin-top: 2rem;
 } 
-
-/* .storyboard {
-  margin-top: 8rem;
-} */
 
 .moodboard {
   margin-bottom: 2rem;
