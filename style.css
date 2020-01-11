@@ -57,10 +57,6 @@ body {
       font-weight: normal;
     }
 
-    .process_image {
-      margin-top: 4rem;
-    }
-
 
  h4 {
     font-family: "Roboto", sans-serif;
@@ -169,8 +165,6 @@ mark.blue {
   position:absolute;
 }
 
-/* containers */
-
 .container {
   width: 92%;
   margin: 0 auto;
@@ -180,13 +174,20 @@ mark.blue {
   width: 100%;
 }
 
+div.stopmotion, div.inspiration {
+  margin-bottom: 2rem;
+}
+
+.moodboard {
+  margin-bottom: 2rem;
+}
+
+
 /*////////////// sections /////////////////////*/
 
 section {
   padding: 5rem 0 0 0;
 }
-
-/* HERO */
 
 .hero {
   color: white;
@@ -218,7 +219,33 @@ section {
     padding-top: 4rem;
 }
 
+.newoverview {
+  margin-top: 12rem;
+}
 
+.newoutcome {
+  background-image: url(images/Outcome_BG.svg);
+  margin-top: 5rem;
+  padding: 5rem 0 3rem 0;
+}
+
+.tools, .challenge, .takeaways {
+  margin-top: 2rem;
+} 
+
+.process_image {
+  margin-top: 4rem;
+}
+
+  audio {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wewon {
+  background-image: url(images/Award_newBg.svg);
+}
 
 /*////////////// grids /////////////////////*/
 
@@ -238,35 +265,6 @@ section {
   text-align: left;
 }
 
-
-audio {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-}
-
-@media all and (min-width: 768px) {
-  audio {
-    width: 70%;
-  }
-}
-
-div.stopmotion, div.inspiration {
-  margin-bottom: 2rem;
-}
-
-
-
-.newoutcome {
-  background-image: url(images/Outcome_BG.svg);
-  margin-top: 5rem;
-  padding: 5rem 0 3rem 0;
-}
-
-.newoverview {
-  margin-top: 12rem;
-}
-
 .overview {
   padding: 10px;
   display: grid;
@@ -275,27 +273,18 @@ div.stopmotion, div.inspiration {
   width: 100%;
 }
 
-.ricktestimonial {
-  margin:100px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 56px;
-  width: 100%;
-}
 
+@media all and (min-width: 768px) {
+  audio {
+    width: 70%;
+  }
+}
 
 .right_column {
   margin-top: 7px;
   display: grid;
   grid-gap: 10px;
   width: 100%;
-}
-.tools, .challenge, .takeaways {
-  margin-top: 2rem;
-} 
-
-.moodboard {
-  margin-bottom: 2rem;
 }
 
 .style, .open, .goalsachieved {
@@ -426,9 +415,6 @@ div.stopmotion, div.inspiration {
   width: 50%;
 }
 
-.wewon {
-  background-image: url(images/Award_newBg.svg);
-}
 
 .davey_grid {
   display: grid;
