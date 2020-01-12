@@ -292,7 +292,7 @@ section {
 
 .hero {
   color: white;
-  background-image: url(images/Hero_BG.svg);
+  background-image: url(images/Iterations_parallax_bg.svg);
   background-size: cover;
   height: 70vh;
   background-attachment: fixed;
@@ -328,7 +328,7 @@ section {
 }
 
 .parallax_1 {
-  background-image: url(images/Outcome_BG.svg);
+  background-image: url(images/Iterations_parallax_bg.svg);
   height: 75%;
   background-attachment: fixed;
   background-position: center;
@@ -337,7 +337,7 @@ section {
 }
 
 .parallax_2 {
-  background-image: url(images/Style_BG.svg);
+  background-image: url(images/Iterations_parallax_bg.svg);
   height: 75%;
   background-attachment: fixed;
   background-position: center;
@@ -364,7 +364,7 @@ section {
 }
 
 .parallax_5 {
-  background-image: url(images/Award_newBg.svg);
+  background-image: url(images/Iterations_parallax_bg.svg);
   height: 80%;
   background-attachment: fixed;
   background-position: center;
@@ -373,7 +373,7 @@ section {
 }
 
 .parallax_process {
-  background-image: url(images/Infographic_BG.svg);
+  background-image: url(images/Iterations_parallax_bg.svg);
   height: 70%;
   background-attachment: fixed;
   background-position: center;
