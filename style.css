@@ -170,6 +170,103 @@ mark.blue {
   margin: 0 auto;
 }
 
+.parallax_outcome {
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media all and (min-width: 600px) {
+  .parallax_outcome {
+      width: 80%; 
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parallax_outcome {
+      width: 75%; 
+  }
+}
+
+
+.parallax_style {
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media all and (min-width: 600px) {
+  .parallax_style {
+      width: 80%; 
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parallax_style {
+      width: 75%; 
+  }
+}
+
+.parallax_iterations{
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media all and (min-width: 600px) {
+  .parallax_iterations {
+      width: 80%; 
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parallax_iterations {
+      width: 75%; 
+  }
+}
+
+
+.parallax_goals{
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media all and (min-width: 600px) {
+  .parallax_goals {
+      width: 80%; 
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parallax_goals {
+      width: 75%; 
+  }
+}
+
+.parallax_award{
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media all and (min-width: 600px) {
+  .parallax_award {
+      width: 80%; 
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parallax_award {
+      width: 75%; 
+  }
+}
+
 .single_col {
   width: 100%;
 }
@@ -198,6 +295,9 @@ section {
   background-image: url(images/Hero_BG.svg);
   background-size: cover;
   height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media all and (min-width: 768px) {
@@ -227,8 +327,62 @@ section {
   margin-top: 12rem;
 }
 
-.newoutcome {
+.parallax_1 {
   background-image: url(images/Outcome_BG.svg);
+  height: 75%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_2 {
+  background-image: url(images/Style_BG.svg);
+  height: 75%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_3 {
+  background-image: url(images/Iterations_parallax_bg.svg);
+  height: 95%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_4 {
+  background-image: url(images/Iterations_parallax_bg.svg);
+  height: 77%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_5 {
+  background-image: url(images/Award_newBg.svg);
+  height: 80%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_process {
+  background-image: url(images/Infographic_BG.svg);
+  height: 70%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newoutcome {
+  /* background-image: url(images/Outcome_BG.svg); */
   margin-top: 5rem;
   padding: 5rem 0 3rem 0;
 }
@@ -239,6 +393,8 @@ section {
 
 .process_image {
   margin-top: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
   audio {
@@ -249,10 +405,6 @@ section {
 
 .music{
   margin-top: 2rem;
-}
-
-.wewon {
-  background-image: url(images/Award_newBg.svg);
 }
 
 /*////////////// grids /////////////////////*/
@@ -299,7 +451,7 @@ section {
 .style, .open, .goalsachieved {
   margin-top: 4rem;
   padding: 4rem 0 3rem 0;
-  background-image: url(images/Style_BG.svg);
+  /* background-image: url(images/Style_BG.svg); */
 }
 
 .testimonial {
@@ -307,9 +459,6 @@ section {
   padding-bottom: 6rem;
 }
 
-.goalsachieved {
-  background-image: url(images/Style_BG.svg);
-}
 
 @media all and (min-width: 600px) {
     .container {
@@ -331,6 +480,7 @@ section {
       margin: 0 auto;
     }
 }
+
 .style_grid, .open_grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -391,9 +541,9 @@ section {
    margin-bottom: 1rem;
  }
 
- .open {
+/* .open {
   background-image: url(images/OpeningShot_Bg.svg);
-}
+} */
 
 .inspiration_grid {
   display: grid;
