@@ -448,7 +448,7 @@ section {
   width: 100%;
 }
 
-.style, .open, .goalsachieved {
+.style, .open, .goalsachieved,  {
   margin-top: 4rem;
   padding: 4rem 0 3rem 0;
   /* background-image: url(images/Style_BG.svg); */
@@ -488,6 +488,20 @@ section {
   width: 100%;
   margin-top: 2rem;
 }
+
+.two_column_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.25rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+@media all and (min-width: 568px) {
+  .two_column_grid{
+    grid-template-columns: 1fr 1fr;
+  }
+
 
 .six_col_images_grid {
   display: grid;
