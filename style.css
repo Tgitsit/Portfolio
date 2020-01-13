@@ -329,7 +329,6 @@ section {
 
 .parallax_1 {
   background-image: url(images/Iterations_parallax_bg.svg);
-  height: 75%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -338,7 +337,6 @@ section {
 
 .parallax_2 {
   background-image: url(images/Iterations_parallax_bg.svg);
-  height: 75%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -347,7 +345,6 @@ section {
 
 .parallax_3 {
   background-image: url(images/Iterations_parallax_bg.svg);
-  height: 95%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -356,7 +353,6 @@ section {
 
 .parallax_4 {
   background-image: url(images/Iterations_parallax_bg.svg);
-  height: 80%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -365,7 +361,6 @@ section {
 
 .parallax_5 {
   background-image: url(images/Iterations_parallax_bg.svg);
-  height: 90%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -448,7 +443,7 @@ section {
   width: 100%;
 }
 
-.style, .open, .goalsachieved,  {
+.style, .open, .goalsachieved  {
   margin-top: 4rem;
   padding: 4rem 0 3rem 0;
   /* background-image: url(images/Style_BG.svg); */
@@ -501,11 +496,11 @@ section {
   .two_column_grid{
     grid-template-columns: 1fr 1fr;
   }
-
+}
 
 .six_col_images_grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
 }
 
@@ -522,7 +517,6 @@ section {
 
 @media all and (min-width: 768px) {
   .six_col_images_grid {
-      grid-template-columns: repeat(6, 1fr);
       grid-gap: 4rem;
     }
 }
@@ -595,7 +589,7 @@ section {
 
 .davey_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-gap: 1.25rem;
   width: 100%;
   margin-top: 2rem;
