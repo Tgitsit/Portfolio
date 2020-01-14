@@ -596,18 +596,6 @@ section {
   margin-top: 2rem;
  }
 
- @media all and (min-width: 680px) {
-  .inspiration_grid {
-    display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 1.3rem;
-  padding: 2em;
-  grid-template-areas: chief video
-                       cap cap2;
- }
-    
-
-
  .chief {
    grid-area: chief;
    background-size: cover;
@@ -623,17 +611,41 @@ section {
   grid-gap: 1.3rem
  }
 
- .center {
+.center {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
 }
-
 
 .davey_grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 5fr 1fr;
   grid-gap: 1.25rem;
   width: 100%;
   margin-top: 2rem;
  }
+
+ .davey {
+   width: 100%;
+   margin-top: 150px;
+ }
+
+ @media all and (min-width: 680px) {
+  .inspiration_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1.3rem;
+    padding: 2em;
+    grid-template-areas: chief video
+                        cap cap2;
+ }
+ .center {
+    width: 50%;
+  }
+
+  .davey {
+    width: auto;
+    margin-top: 50px;
+    height: 300px;
+  }
+}

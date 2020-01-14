@@ -3,6 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <div class="hero">
@@ -20,7 +21,7 @@
                 </figure>
             </div>
         </div>
-        <section class="newoverview">
+        <section class="newoverview" data-aos="zoom-in">
             <div class="container">
                 <h2>Overview</h2> 
                 <div class="overview">
@@ -62,7 +63,7 @@
                     <img src="images/Outcome_hero_icon.svg" alt="Outcome Icon"> 
                     </div>
                     <h6 class= "grid_heading">Outcome</h6>
-                    <div class= "style_grid">
+                    <div class= "style_grid" data-aos="zoom-in">
                         <div class="style_one"> 
                             <img src="images/AwardIcon.svg" alt="Award Icon">
                             <h3 class="grid_title">Award Winner</h3>
@@ -624,19 +625,20 @@
         <section class= "wewon">
             <div class="parallax_5">
                 <div class = "parallax_award">
-                    <div class= "grid_hero_icon">
-                    <img src="images/Award_blue.svg" alt="award Icon"> 
-                    </div>
-                    <h6 class= "grid_heading">We won an award!</h6>
+                    
                     <div class= "davey_grid">
                         <div class="style_one"> 
+                            <div class= "grid_hero_icon">
+                                <img src="images/Award_blue.svg" alt="award Icon"> 
+                                </div>
+                                <h6 class= "grid_heading">We won an award!</h6>
                         <!--. <div class="icon_award"></div> //-->
                             <h3 class="grid_title">Burgen bags a Davey </h3>
                             <p class= "grid_p">The Davey is sanctioned and judged by the Academy of Interactive and Visual Arts, an invitation-only body consisting of top-tier professionals from a "Who's Who" of acclaimed media, advertising and marketing firms.</p>
                             <p class= "grid_p">This year they received more than 30,000 entries. It’s always an honor to be recognized by top professionals in our industry. </p>
                         </div>
                         <div class="style_three">
-                            <img src="images/DaveyAward_1.png" alt="Davey Award">
+                            <img class="davey" src="images/DaveyAward_1.png" alt="Davey Award">
                         </div>
                     </div>
                 </div>
@@ -658,5 +660,12 @@
                 </div>
             </div>
         </section>
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000
+            });
+        </script>
     </body>
 </html>
