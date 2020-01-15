@@ -312,7 +312,7 @@ div.stopmotion {
 /*////////////// sections /////////////////////*/
 
 section {
-  padding: 5rem 0 0 0;
+  padding: 4rem 0 0 0;
 }
 
 .hero {
@@ -403,13 +403,17 @@ section {
 
 .newoutcome {
   /* background-image: url(images/Outcome_BG.svg); */
-  margin-top: 5rem;
+  margin-top: 0rem;
   padding: 5rem 0 3rem 0;
 }
 
-.tools, .challenge, .takeaways {
+/* .tools, .challenge, .takeaways {
   margin-top: 2rem;
-} 
+} */
+
+.tools, .process, .wewon {
+  margin-bottom: 2rem;
+}
 
 .process_image {
   margin-top: 4rem;
@@ -475,8 +479,8 @@ section {
 }
 
 .testimonial {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 
