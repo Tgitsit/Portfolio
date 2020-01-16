@@ -474,7 +474,7 @@ section {
 
 .style, .open, .goalsachieved  {
   margin-top: 4rem;
-  padding: 4rem 0 3rem 0;
+  padding: 0 0 3rem 0;
   /* background-image: url(images/Style_BG.svg); */
 }
 
