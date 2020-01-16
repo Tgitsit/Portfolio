@@ -162,8 +162,9 @@
             </div>
             <div class="parallax_process">
                 <div class = "process_image" data-aos="zoom-in">
-                    <figure>
-                        <img src="images/Infographic_no_background.svg" alt="Our Process" style="width:100%">
+                    <figure class="svg-mobile">
+                        <img class="nomobile" src="images/Infographic_no_background.svg" alt="Our Process" style="width:100%">
+                        <img class="mobile" src="images/Infographic_vertical.svg" alt="Our Process" style="width:100%">
                         <!--figcaption>Temp Image for Design Tools</figcaption> -->
                     </figure>
                 </div>
@@ -655,6 +656,7 @@
             AOS.init({
                 duration: 1000, 
                 once: true,
+                disable: 'phone'
             });
         </script>
     </body>

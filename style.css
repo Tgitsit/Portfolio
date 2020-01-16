@@ -394,7 +394,6 @@ section {
 
 .parallax_process {
   background-image: url(images/Iterations_parallax_bg.svg);
-  height: 70%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -645,7 +644,28 @@ section {
    margin-top: 150px;
  }
 
+ .nomobile {
+   display: none;
+ }
+
+.svg-mobile {
+  width: 90%;
+  margin: 0 auto;
+}
+
  @media all and (min-width: 680px) {
+  .mobile {
+    display: none;
+  }
+
+  .svg-mobile {
+    width: 100%;
+  }
+
+  .nomobile {
+    display: block;
+  }
+
   .inspiration_grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -664,3 +684,4 @@ section {
     height: 300px;
   }
 }
+
