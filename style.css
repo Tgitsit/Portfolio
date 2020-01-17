@@ -327,8 +327,13 @@ section {
 
 @media all and (min-width: 768px) {
   .hero {
-    height: 130vh;
+    height: 60vh;
   }
+
+@media all and (min-width: 1024px) {
+  .hero {
+  height: 130vh;
+    }
 
   .hero_text {
     padding-top: 16rem;
