@@ -56,6 +56,48 @@
                 </div>
             </div>
         </section>
+        <section class="tools">
+            <div class="container">
+            <h2> Design Tools</h2>
+            <div class="six_col_images_grid">
+                <div class= "designtool_img_1">
+                    <figure>
+                        <img src="images/Final Draft.svg" alt="tool" style="width:100%">
+                        <figcaption>Final Draft</figcaption>
+                        </figure>
+                    </div>
+                    <div class= "designtool_img_2">
+                        <figure>
+                            <img src="images/AI.svg" alt="tool" style="width:100%">
+                            <figcaption>Illustrator</figcaption>
+                        </figure>
+                    </div>
+                    <div class= "designtool_img_3">
+                        <figure>
+                            <img src="images/PS (1).svg" alt="tool" style="width:100%">
+                            <figcaption>Photoshop</figcaption>
+                        </figure>
+                    </div>
+                    <div class= "designtool_img_4">
+                        <figure>
+                            <img src="images/AE.svg" alt="tool" style="width:100%">
+                            <figcaption>After Effects</figcaption>
+                        </figure>
+                    </div> 
+                    <div class= "designtool_img_5">
+                        <figure>
+                            <img src="images/PR.svg" alt="tool" style="width:100%">
+                            <figcaption>Premiere</figcaption>
+                        </figure>
+                    </div>   
+                    <div class= "designtool_img_6">
+                        <figure>
+                            <img src="images/Cinema4D.svg" alt="tool" style="width:100%">
+                            <figcaption>Cinema 4D</figcaption> 
+                        </figure>
+                </div>
+            </div>
+        </section>
         <section class= "newoutcome">
             <div class="parallax_1">
                 <div class = "parallax_outcome">
@@ -113,12 +155,17 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class= "container">
-                <h1>Design Process</h1>
-            </div>
-            <div class= "design_process">
-                <img src="images/00_ideaboard/UX_Design_Process.png" alt="Design system for Ideaboard"> 
+        <section class= "process">
+            <div class="container">
+                <div class="single_col">
+                    <h2>Our Process</h2> 
+                </div>
+                <div class = "process_image" data-aos="zoom-in">
+                    <figure class="svg-mobile">
+                        <img class="nomobile" src="images/00_ideaboard/lifecycle-process.svg" alt="Our Process" style="width:100%">
+                        <img class="mobile" src="images/00_ideaboard/lifecycle-process.svg" alt="Our Process" style="width:100%">
+                        <!--figcaption>Temp Image for Design Tools</figcaption> -->
+                    </figure>
                 </div>
             </div>
         </section>
@@ -127,13 +174,105 @@
                 <div class="single_col">
                     <h2>Research</h2> 
                     <p>Creating a product without having an end-user in mind is not only hard, but it actually defeats the purpose. There are plenty of ways we can go about it, so how do we narrow the focus? We surveyed potential users, as well as did a competitive analysis of companies in similar space in order to figure out our approach.  </p>
-                    <h3 class="subhead"> a: User Survey</h3>
+                    <h3 class="sub_center"> a: User Survey</h3>
                     <p class= "italic"> “A problem well stated is a problem half solved.” </p>
                     <div class= "quoteby">— Charles Kettering</div>
-                    <p>When we think about Cloud Storage, some big names immediately come to mind, including Google, Dropbox, Evernote and Microsoft. </p>
-                    <p>The stakeholders had mentioned a number of possible features, including, creating content in various formats, saving content they find online, organizing content, sharing documents, collaborating with teammates as well as social sharing.</p>
+                    <p>I created a questionnaire to determine the core users as well as the features that they would <em>actually</em> want. My goal was to find under-served users so there’s potential to grow in the crowded market of cloud storage and organization. </p>
+                    <p>I deployed a user survey to gather data in order to look for patterns, trends and outliers. </p>
+                    <p>After analyzing the data that was collected, it was clear that the target user is a graphic designer or a student between the ages of 22-39. Most of these people are using Google Drive or Dropbox at the moment, however, they need to use multiple apps to do tasks like saving links they find online. They are also looking for more flexible options for creating documents. </p>
+                </div>
+                <div class="single_col">
+                    <h3 class= "sub_center"> Survey Analysis </h3>
+                </div>
+                <div class= "survey_grid">
+                    <div class="style_one"> 
+                        <p> 1: The biggest use of cloud is for saving content , accessing it from anywhere and sharing it easily. Creating documents and notes is also an important feature.
+                        </p>
+                    </div>
+                    <div class="style_two">
+                        <img src="images/00_ideaboard/UserSurveyResults/Use.png" alt="HowPeopleUseCloud">
+                    </div>
+                    <div class="style_three"> 
+                        <p> 2: People share documents that they create for collaboration as well as stuff they use for backup and records.
+                        </p>
+                    </div>
+                    <div class="style_four">
+                        <img src="images/00_ideaboard/UserSurveyResults/Share.png" alt="HowPeopleUseCloud">
+                    </div>
+                    <div class="style_five"> 
+                        <p> 3: The most wished for features include </p>
+
+                        <li>Ability to clip articles from the web as well as visually save media files </li>
+                        <li> Better features for creating documents</li>
+                        <li>Ability to add notes within documents</li>
+                        <li>Better aesthetics.</li>
+                        
+                        <p>Users didn’t think that social features were important for a cloud-storage service.</p>
+                    </div>
+                    <div class="style_six">
+                        <img src="images/00_ideaboard/UserSurveyResults/Features.png" alt="HowPeopleUseCloud">
+                    </div>
                 </div>
             </div> 
+        </section>
+        <section class="flexbox_test">
+            <div class="layout">
+                <div class="layout__item layout__item--body">
+                  <h2>Lorem Ipsum</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                  </p>
+                </div>
+                <div class="layout__item layout__item--figure">
+                  <img src="https://images.unsplash.com/photo-1516750930166-ed88ab1adb61?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65c8f6fcafaf68f5fa434b5f076780fd&auto=format&fit=crop&w=600&q=80" alt="">
+                </div>
+              </div>
+              
+              <div class="layout">
+                <div class="layout__item layout__item--body">
+                  <h2>Lorem Ipsum</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                  </p>
+                </div>
+                <div class="layout__item layout__item--figure">
+                  <img src="https://images.unsplash.com/photo-1515362790300-999394721afc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a78b6877abab91c16e757ada8c55e32&auto=format&fit=crop&w=600&q=80" alt="">
+                </div>
+              </div>
+              
+              <div class="layout">
+                <div class="layout__item layout__item--body">
+                  <h2>Lorem Ipsum</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                  </p>
+                </div>
+                <div class="layout__item layout__item--figure">
+                  <img src="https://images.unsplash.com/photo-1514747348279-46eb4082b804?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b169d9f50db7714cd7373a3c181162a&auto=format&fit=crop&w=600&q=80" alt="">
+                </div>
+              </div>
+              
+              <div class="layout">
+                <div class="layout__item layout__item--body">
+                  <h2>Lorem Ipsum</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua.
+                  </p>
+                </div>
+                <div class="layout__item layout__item--figure">
+                  <img src="https://images.unsplash.com/photo-1513843000111-3eb82159a25c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82618557ca42a6477f6bb9390eea27bc&auto=format&fit=crop&w=600&q=80" alt="">
+                </div>
+              </div>
+
+
         </section>
         
 

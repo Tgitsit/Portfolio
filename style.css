@@ -51,6 +51,12 @@ body {
       font-weight: normal;
     }
 
+    .sub_center {
+      margin-bottom: 1.5rem;
+      font-weight: lighter;
+      text-align: center;
+    }
+
     .onepercent {
       margin-top: 4rem;
       margin-bottom: 1.5rem;
@@ -94,6 +100,10 @@ body {
     color: #595F6F;
     }
 
+    .light {
+      font-weight: lighter;
+    }
+    
    .margintop {
      margin-top: 2rem;
    }
@@ -133,11 +143,12 @@ figcaption {
 }
 
 li{
-  font-family: "Roboto", sans-serif ;
-  font-size: 0.75rem;
-  margin-bottom: 5px;
-  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
   line-height: 150%;
+  color: #595F6F;
 }
 
 mark.blue {
@@ -525,9 +536,22 @@ section {
   margin-top: 2rem;
 }
 
+.survey_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.25rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+
 @media all and (min-width: 568px) {
   .two_column_grid{
     grid-template-columns: 1fr 1fr;
+  }
+
+  .survey_grid {
+    grid-template-columns: 1fr 2fr;
   }
 }
 
@@ -689,4 +713,71 @@ section {
     height: 300px;
   }
 }
+/* Flexbox test */
+$min-width: 15rem;
 
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1em; // 1
+  margin-left: -3.5em; // 1
+  align-items: center;
+  
+  &:not(:first-of-type) {
+    margin-top: 3em; // 2
+  }
+  
+  &:nth-child(even) {
+    flex-direction: row-reverse; // 3
+  }
+  
+  &__item {
+    padding-top: 1em; // 1
+    padding-left: 3.5em; // 1
+    
+    &--body {
+      flex-grow: 9999; // 4
+      flex-basis: $min-width; // 5
+    }
+    
+    &--figure {
+      margin-right: auto; // 6
+      flex-grow: 1; // 7
+
+      @supports (max-width: max-content) {
+        min-width: $min-width; // 5
+        max-width: max-content;
+        flex-basis: $min-width; // 5
+        flex-grow: 99999;
+      }
+    }
+  }
+}
+
+// MISC
+body {
+  max-width: 60em;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3em 1em;
+  line-height: 1.5em;
+  font-family: Roboto, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+.layout {
+margin-top: 1em;}
+}
