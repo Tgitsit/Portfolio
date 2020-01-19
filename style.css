@@ -159,11 +159,18 @@ mark.blue {
 .hero-head {
   color: #fff;
   margin-bottom: 1rem;
+  line-height: 110%;
+  margin-top: 8rem;
 }
 
 .hero_p {
   color: #D9EFFF;
   text-align: center;
+}
+
+.hero h6 {
+  line-height: 120%;
+  margin-bottom: 1rem;
 }
 
 .hero_text {
@@ -326,14 +333,26 @@ section {
   padding: 4rem 0 0 0;
 }
 
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,.7);
+  z-index: 1;
+}
+
 .hero {
   color: white;
   background-image: url(images/Iterations_parallax_bg.svg);
   background-size: cover;
-  height: 70vh;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.newoverview {
+  padding-top: 8rem;
 }
 
 @media all and (min-width: 768px) {
@@ -341,7 +360,19 @@ section {
     height: 60vh;
   }
 
+  .newoverview {
+    padding-top: 15rem;
+  }
+
+}
+
 @media all and (min-width: 1024px) {
+  .hero {
+      height: 90vh;
+  }
+}
+
+@media all and (min-width: 1025px) {
   .hero {
   height: 130vh;
     }
@@ -362,10 +393,6 @@ section {
     display: block;
     margin-bottom: 10rem;
     padding-top: 4rem;
-}
-
-.newoverview {
-  margin-top: 12rem;
 }
 
 .parallax_1 {
