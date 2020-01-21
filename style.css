@@ -368,7 +368,6 @@ nav {
 /* Add an active class to highlight the current page */
 .topnav a.active {
   color: white;
-  font-weight: bold;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
