@@ -346,6 +346,8 @@ nav {
 .topnav {
   background-color: #fff;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Style the links inside the navigation bar */
@@ -354,15 +356,17 @@ nav {
   display: block;
   color: #595F6F;
   text-align: center;
-  padding: 20px 16px;
+  padding: 30px 16px 20px 16px;
   text-decoration: none;
   font-size: 1rem;
+  border-bottom: 10px solid #fff;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   color: #1A47B0;
   font-weight: lighter;
+  border-bottom: 10px solid red;
 }
 
 /* Add an active class to highlight the current page */
@@ -375,15 +379,13 @@ nav {
   display: none;
 }
 
-
 .social_icons{
-  margin-right: 160px;
+
 }
 
 .logo {
   float: left;
-  margin-left: 160px;
-  height:75%;
+  height: 75%;
   padding: 14px 16px;
 }
 
