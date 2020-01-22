@@ -375,14 +375,33 @@ nav {
   display: none;
 }
 
-.pages {
+
+.social_icons{
   margin-right: 160px;
 }
+
 .logo {
   float: left;
   margin-left: 160px;
   height:75%;
   padding: 14px 16px;
+}
+
+.fixed-footer{
+  bottom: 0;
+}
+
+.footer {
+  height: 30vh;
+  background-color: #202020;
+  color: fff;
+  font-family: roboto, sans serif;
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+
+.copyright {
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
