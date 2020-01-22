@@ -344,35 +344,45 @@ nav {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #fff;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: #75B8F1;
+  color: #595F6F;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1rem;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: #D9EFFF;
+  color: #1A47B0;
   font-weight: lighter;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  color: white;
+  color:#1A47B0;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+.pages {
+  margin-right: 160px;
+}
+.logo {
+  float: left;
+  margin-left: 160px;
+  height:75%;
+  padding: 14px 16px;
 }
 
 @media screen and (max-width: 600px) {
