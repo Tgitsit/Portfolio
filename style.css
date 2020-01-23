@@ -84,7 +84,7 @@ body {
   }
 
   h3 {
-    font-size: 0.75rem;
+    font-size: 1.25rem;
   }
 
   h6 {
@@ -1007,3 +1007,24 @@ p.footertext a {
     height: 300px;
   }
  }
+
+ /* hover effect trial*/
+
+ .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+
