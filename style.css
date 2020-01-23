@@ -353,6 +353,11 @@ div.stopmotion {
 section {
   padding: 4rem 0 0 0;
 }
+
+.social {
+  background-color: green;
+}
+
 /*
 nav {
   height: 80px;
@@ -418,8 +423,8 @@ a {
 /* header */
 
 .logo {
-  padding-left: 1rem;
-  padding-top: 1rem;
+  /* padding-left: 1rem;
+  padding-top: 1rem; */
 }
 
 
@@ -427,6 +432,8 @@ a {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   z-index: 3;
 }
@@ -458,6 +465,9 @@ a {
   color:#1A47B0;
 }
 
+.social li {
+  margin-bottom: 0;
+}
 
 /* menu */
 
@@ -465,6 +475,10 @@ a {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+}
+
+.menu li {
+  margin-bottom: 0;
 }
 
 /* menu icon */
@@ -540,7 +554,7 @@ a {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
   .header .menu {
     clear: none;
