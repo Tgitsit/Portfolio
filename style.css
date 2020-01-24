@@ -427,12 +427,10 @@ a {
   padding-top: 1rem; */
 }
 
-
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
-  display: flex;
   justify-content: space-between;
   width: 100%;
   z-index: 3;
@@ -562,6 +560,10 @@ a {
   }
   .header .menu-icon {
     display: none;
+  }
+
+  .header {
+    display: flex;
   }
 }
 
@@ -1034,10 +1036,12 @@ p.footertext a {
   transition-property: transform;
 }
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-  transform: scale(1.1);
+@media all and (min-width: 48rem){
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.1);
+  }
 }
 
 
