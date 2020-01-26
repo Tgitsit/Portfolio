@@ -62,6 +62,7 @@ body {
       width: 100%;
       line-height: 150%;
       margin-bottom: 0.5em;
+      font-color:#1A47B0;
         }    
           
     h6 {
@@ -109,7 +110,10 @@ body {
       font-weight: normal;
     }
 
-
+    .quote {
+      font-size: 1.5rem;
+      font-weight: lighter;
+    }
  
 
   p {
@@ -155,6 +159,11 @@ figcaption {
   text-align: center;
 }
 
+.name{
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
 .quoteby {
   color: #595F6F;
   font-family: "Roboto", sans-serif;
@@ -172,6 +181,7 @@ li{
   color: #595F6F;
 }
 
+
 mark.blue {
   color:#1A47B0;
   background: none;
@@ -181,7 +191,7 @@ mark.blue {
   color: #fff;
   margin-bottom: 1rem;
   line-height: 110%;
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 
 .hero_p {
@@ -358,62 +368,7 @@ section {
   background-color: green;
 }
 
-/*
-nav {
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-}
 
-/* Add a black background color to the top navigation 
-.topnav {
-  background-color: #fff;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Style the links inside the navigation bar 
-.topnav a {
-  float: right;
-  display: block;
-  color: #595F6F;
-  text-align: center;
-  padding: 30px 16px 20px 16px;
-  text-decoration: none;
-  font-size: 1rem;
-  border-bottom: 10px solid #fff;
-}
-
-/* Change the color of links on hover 
-.topnav a:hover {
-  color: #1A47B0;
-  font-weight: lighter;
-}
-
-/* Add an active class to highlight the current page 
-.topnav a.active {
-  color:#1A47B0;
-}
-
-/* Hide the link that should open and close the topnav on small screens 
-.topnav .icon {
-  display: none;
-}
-
-.social_icons{
-
-}
-
-
-
-
-}
-
-*/
 
 a {
   color: #000;
@@ -634,8 +589,12 @@ p.footertext a {
 }
 
 .newoverview {
-  padding-top: 8rem;
+  padding-top: 12rem;
 }
+
+.ideaboard_right_column
+
+
 
 @media all and (min-width: 768px) {
   .hero {
@@ -674,7 +633,7 @@ p.footertext a {
     text-align: center;
     display: block;
     margin-bottom: 10rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .parallax_1 {
@@ -781,6 +740,12 @@ p.footertext a {
   width: 100%;
 }
 
+.tasks_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
 
 @media all and (min-width: 768px) {
   audio {
@@ -828,6 +793,7 @@ p.footertext a {
       margin: 0 auto;
     }
 }
+
 
 .style_grid, .open_grid {
   display: grid;
@@ -1045,3 +1011,35 @@ p.footertext a {
 }
 
 
+
+
+.persona_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.3rem;
+  margin: 0 auto;
+  background-color: #D9EFFF;
+  padding: 2rem;
+}
+
+@media all and (min-width: 780px) {
+  .persona_grid{
+   padding: 3rem;
+  }
+
+.nested_grid {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-gap: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.persona {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+}
+
+.user_image {
+  margin: 0 auto;
+}
