@@ -191,6 +191,10 @@ li{
   color: #595F6F;
 }
 
+ul {
+  list-style-type: circle;
+  margin-left:1rem;
+}
 
 mark.blue {
   color:#1A47B0;
