@@ -159,6 +159,10 @@ figcaption {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 .name{
   font-size: 1rem;
   padding-top: 1rem;
@@ -1042,4 +1046,86 @@ p.footertext a {
 
 .user_image {
   margin: 0 auto;
+}
+
+.cloud {
+  margin: 0 auto;
+}
+
+
+/* test */
+
+.three_column_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+.persona_name {
+  padding: 1.5rem;
+}
+
+.column_one {
+  background-color: yellow;
+}
+
+
+.column_three {
+  background-color: lightpink;
+  height: 30rem;
+}
+
+.nestle_grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 0.5rem;
+}
+
+.nestle_grid_columns{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nestle_grid_columns_three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.middle_row_one {
+  background-color: salmon;
+  padding: 1.5rem;
+}
+
+.middle_row_two {
+  background-color: lightgrey;
+  padding: 1.5rem;
+}
+
+.middle_row_three {
+  background-color: lightgrey;
+  padding: 1.5rem;
+}
+
+.right_column_top {
+  background-color: lightgrey;
+  padding: 1.5rem;
+}
+
+.image_behavior {
+  padding-bottom: 1.5rem;
+}
+
+.right_column_middle {
+  background-color: lightpink;
+  padding: 1.5rem;
+}
+
+.right_column_bottom {
+  background-color: lightgray;
+  padding: 1.5rem;
+}
+
+.right_column_end {
+  background-color: lightpink;
+  padding: 1.5rem;
 }
