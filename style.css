@@ -1195,3 +1195,32 @@ p.footertext a {
   
   }
 
+/* Table */
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid #75B8F1;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+table#t01 th {
+  background-color: #176BEF;
+  color: white;
+}
+
+.table {
+margin-bottom: 0;
+}
+
+.table_head {
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
