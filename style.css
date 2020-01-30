@@ -196,9 +196,26 @@ ul {
   margin-left:1rem;
 }
 
+ol {
+  margin-left:3rem;
+  margin-right: 3rem;
+}
+
+ol { counter-reset: item; }
+ol li { display: block; }
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color:#1A47B0;
+}
+
 mark.blue {
   color:#1A47B0;
   background: none;
+}
+
+mark {
+  color: #595F6F;
 }
 
 .hero-head {

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+body { 
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+
+/* main site grid ----------------------------------------------------------------*/
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(10rem, auto);
+    grid-gap: 1rem; 
+    grid-template-areas:
+    "nav nav nav nav nav nav nav nav"
+    "overview overview overview overview overview overview overview overview"
+    "outcome outcome outcome outcome outcome outcome outcome outcome"
+    "challanges challanges challanges challanges challanges challanges challanges challanges"
+}
+
+@media all and (min-width: 780px) {
+    .container {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: minmax(2rem, auto);
+        grid-gap: 1rem; 
+        grid-template-areas:
+        "nav nav nav nav nav nav nav nav nav nav nav nav"
+        "hero hero hero hero hero hero hero hero hero hero hero hero"
+        "overview overview overview overview overview overview overview overview overview overview overview overview"
+        "outcome outcome outcome outcome outcome outcome outcome outcome outcome outcome outcome outcome"
+        "challanges challanges challanges challanges challanges challanges challanges challanges challanges challanges challanges challanges "
+     
+}    
+   
+
+
+.nav {
+    background-color: lightgrey;
+    padding: 1rem;
+    grid-area: nav;
+}
+
+.hero {
+    background-color: lightblue;
+    padding: 1rem;
+    grid-area: hero;
+}
+
+.overview {
+    background-color: lightblue;
+    padding: 1rem;
+    grid-area: overview;
+}
+
+.outcome {
+    background-color: lightblue;
+    padding: 1rem;
+    grid-area: outcome;
+}
+
+.challanges {
+    background-color: lightblue;
+    padding: 1rem;
+    grid-area: challanges;
+}
+
+/* END main site grid ----------------------------------------------------------------*/
+
+/* Hero Section ----------------------------------------------------------------*/
+
