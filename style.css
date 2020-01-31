@@ -834,6 +834,24 @@ p.footertext a {
   margin-top: 2rem;
 }
 
+.wireframes_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.25rem;
+  width: 100%;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.wireframes_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.25rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .two_column_grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -849,6 +867,11 @@ p.footertext a {
   width: 100%;
   margin-top: 2rem;
 }
+
+@media all and (min-width: 568px) {
+  .wireframes_grid{
+    grid-template-columns: 2fr 1fr;
+  }
 
 
 @media all and (min-width: 568px) {
@@ -1222,5 +1245,14 @@ margin-bottom: 0;
   margin: 0;
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+.flow {
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+.style_map {
+  padding: 3rem;
 }
 
