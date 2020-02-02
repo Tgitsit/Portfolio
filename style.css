@@ -637,6 +637,7 @@ p.footertext a {
   .hero {
     height: 60vh;
   }
+}
 
   .newoverview {
     padding-top: 15rem;
@@ -740,6 +741,14 @@ p.footertext a {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
+
+.idea_process_image {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
 
   audio {
   display: block;
@@ -1314,47 +1323,12 @@ button.btn {
   justify-content: center;
 }
 
-
-/*
-
-.white {
-  background-color: rgb(242, 242, 242);
-  padding: 5% 0px;}
-
-  .one-half {
-    width: 50%;
+.competition_image {
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-.one-half, .one-third, .one-fourth, .one-fifth {
-  float: left;
-  position: relative;
-  min-height: 1px;
-}
-
-  .div {
-    display: block;
-  }
-
-  .probsol-right {
-    width: 450px;
-    float: left;
-    padding-left: 5%;
-    text-align: left;
-}
-
-.probsol-left {
-  width: 450px;
-  float: right;
-  padding-right: 5%;
-  text-align: left;
-}
-
-.gray {
-  background-color: rgb(230, 230, 230);
-  padding: 5% 0px;
-}
-
-*/
 
 .two_col_left {
   background-color:#EFEEEA;
@@ -1376,4 +1350,8 @@ button.btn {
   margin-top: 5rem;
   margin-bottom: 5rem;
   margin-right: 25%;
+}
+
+.see_more {
+  margin: 0 auto;
 }
