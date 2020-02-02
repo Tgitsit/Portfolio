@@ -86,7 +86,7 @@ body {
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   h3 {
@@ -199,6 +199,7 @@ li{
 ul {
   list-style-type:circle;
   margin-left:1rem;
+  
 }
 
 ol {
@@ -887,10 +888,10 @@ p.footertext a {
 .two_column_grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1.25rem;
   width: 100%;
   margin-top: 2rem;
 }
+
 
 .survey_grid {
   display: grid;
@@ -909,6 +910,10 @@ p.footertext a {
 @media all and (min-width: 568px) {
   .two_column_grid{
     grid-template-columns: 1fr 1fr;
+    
+    .two_col_background {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   .survey_grid {
@@ -1301,4 +1306,74 @@ button.btn {
 
 .hero_background {
   background-image: url(images/00_ideaboard/Ideaboard_hero_bg_1.svg);
+}
+
+.tools_i_used {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*
+
+.white {
+  background-color: rgb(242, 242, 242);
+  padding: 5% 0px;}
+
+  .one-half {
+    width: 50%;
+}
+
+.one-half, .one-third, .one-fourth, .one-fifth {
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+  .div {
+    display: block;
+  }
+
+  .probsol-right {
+    width: 450px;
+    float: left;
+    padding-left: 5%;
+    text-align: left;
+}
+
+.probsol-left {
+  width: 450px;
+  float: right;
+  padding-right: 5%;
+  text-align: left;
+}
+
+.gray {
+  background-color: rgb(230, 230, 230);
+  padding: 5% 0px;
+}
+
+*/
+
+.two_col_left {
+  background-color:#EFEEEA;
+}
+
+.two_col_content_left {
+  margin-left: 25%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 15%;
+}
+
+.two_col_right {
+  background-color:#F4F4F4;
+}
+
+.two_col_content_right {
+  margin-left: 15%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 25%;
 }
