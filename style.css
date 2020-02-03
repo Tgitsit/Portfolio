@@ -134,6 +134,10 @@ body {
       font-weight: lighter;
     }
     
+    .bold{
+      font-weight: bold;
+    }
+    
    .margintop {
      margin-top: 2rem;
    }
@@ -1122,13 +1126,20 @@ p.footertext a {
 /* persona */
 
 
-.personas_background {
-  background-color:  #F3F3F3;
+.personas_background_1 {
+  background-color:  #EFEEEA;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5rem;
+}
+
+.personas_background_2 {
+  background-color:  #F4F4F4;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .column_one {
@@ -1136,6 +1147,9 @@ p.footertext a {
   margin: 0 auto;
 }
 
+.opportunity {
+  margin-top: 4rem;
+}
 
 .three_column_grid {
   display: grid;
@@ -1182,6 +1196,8 @@ p.footertext a {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 0.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   
   .persona_name {
@@ -1339,6 +1355,8 @@ button.btn {
   margin-top: 5rem;
   margin-bottom: 5rem;
   margin-right: 15%;
+  align-items: center;
+  justify-content: center;
 }
 
 .two_col_right {
@@ -1350,6 +1368,8 @@ button.btn {
   margin-top: 5rem;
   margin-bottom: 5rem;
   margin-right: 25%;
+  align-items: center;
+  justify-content: center;
 }
 
 .see_more {
