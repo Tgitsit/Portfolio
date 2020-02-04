@@ -1337,6 +1337,14 @@ margin-bottom: 0;
   position: absolute;
   right: 20;
   bottom: 20;
+  padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#176BEF;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  margin-bottom:2em;
 }
 
 
