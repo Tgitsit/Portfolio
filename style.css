@@ -486,11 +486,11 @@ a {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background-color: #333;
   display: block;
   height: 2px;
   position: relative;
-  transition: background .2s ease-out;
+  transition: background-color .2s ease-out;
   width: 18px;
 }
 
@@ -633,7 +633,7 @@ p.footertext a {
   padding-top: 12rem;
 }
 
-.ideaboard_right_column
+/* .ideaboard_right_column */
 
 
 
@@ -647,7 +647,6 @@ p.footertext a {
     padding-top: 15rem;
   }
 
-}
 
 @media all and (min-width: 1024px) {
   .hero {
@@ -939,12 +938,12 @@ p.footertext a {
 
 
 @media all and (min-width: 568px) {
-  .two_column_grid{
+  .two_column_grid {
     grid-template-columns: 1fr 1fr;
-
+  }
 
     
-    .two_col_background {
+  .two_col_background {
       grid-template-columns: 1fr 1fr;
     }
   }
@@ -1331,8 +1330,15 @@ margin-bottom: 0;
 
 .flow {
   margin-bottom: 5rem;
-  display: flex;
+  position: relative;
 }
+
+.btn_flow {
+  position: absolute;
+  right: 20;
+  bottom: 20;
+}
+
 
 .style_map {
   padding: 3rem;
@@ -1383,25 +1389,30 @@ button.btn {
   background-color: rgb(191, 225, 250);
 }
 
-.two_col_content_left {
-  margin-left: 25%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-right: 15%;
-  align-items: center;
-  justify-content: center;
-}
 
-
-
+.two_col_content_left, 
 .two_col_content_right {
-  margin-left: 15%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-right: 25%;
+  margin: 10%;
   align-items: center;
   justify-content: center;
 }
+
+
+@media all and (min-width: 680px) {
+  .two_col_content_left {
+    margin-left: 25%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 15%;
+  }
+
+  .two_col_content_right {
+    margin-left: 15%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 25%;
+  }
+} 
 
 .padded {
   margin-left: 15%;
