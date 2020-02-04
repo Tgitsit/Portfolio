@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
-
-
-
-
 /*  Fonts and Color*/
 
 body { 
@@ -441,6 +437,9 @@ a {
   justify-content: space-between;
 }
 
+li .margin {
+  margin-top: 2px;
+}
 
 .header li a {
   display: block;
@@ -520,7 +519,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 320px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -1081,17 +1080,14 @@ p.footertext a {
 }
 
  @media all and (min-width: 680px) {
-  .mobile {
-    display: none;
-  }
 
   .svg-mobile {
     width: 100%;
   }
 
-  .nomobile {
+  /* .nomobile {
     display: block;
-  }
+  } */
 
   .inspiration_grid {
     display: grid;
