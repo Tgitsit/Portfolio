@@ -1375,6 +1375,14 @@ button.btn {
   background-color:#F4F4F4;
 }
 
+.lightblue {
+  background-color: #D9EFFF;
+}
+
+.darkerblue {
+  background-color: rgb(191, 225, 250);
+}
+
 .two_col_content_left {
   margin-left: 25%;
   margin-top: 5rem;
