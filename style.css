@@ -906,12 +906,30 @@ p.footertext a {
 }
 
 
+.ib_three_column_grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+
 .survey_grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.25rem;
   width: 100%;
   margin-top: 2rem;
+}
+
+@media all and (min-width: 578px) {
+  .ib_three_column_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
 }
 
 @media all and (min-width: 568px) {
@@ -923,6 +941,8 @@ p.footertext a {
 @media all and (min-width: 568px) {
   .two_column_grid{
     grid-template-columns: 1fr 1fr;
+
+
     
     .two_col_background {
       grid-template-columns: 1fr 1fr;
@@ -1375,22 +1395,33 @@ button.btn {
   justify-content: center;
 }
 
+.padded {
+  margin-left: 15%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 25%;
+}
+
+.not_padded {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.three_col_content_right {
+  margin-left: 15%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
 .see_more {
   margin: 0 auto;
 }
 
-.btn_flow {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  z-index: 1;
+.padtop{
+  padding-top: 2rem;
 }
