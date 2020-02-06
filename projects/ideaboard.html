@@ -665,6 +665,12 @@
                 <div class= "single_col">
                     <h2>Hi-Fi Prototype</h2>
                     <p>Finally, I created Hi- Fi Prototype and repeated Usability Tests. I also conducted A-B testing for making the final selections. View prototype.</p>
+                    <div class="hifi_hero">
+                    <img src="/images/00_ideaboard/Hi_fi_wireframes/Isolated_prototype_hero.svg" alt="ideaboard_gif">
+                     </div>
+                    <div class="button"> 
+                        <button class="btn">View Prototype <i class="fa fa-angle-right"></i></button>
+                    </div>
                 </div>
             </div>
             <div class="hifi_background_royalblue">
@@ -699,8 +705,8 @@
                     </div>
                 </div>
             <div class="hifi_background_navyblue">
+                <div class= "container">
                     <div class="idea_four_col_grid">
-                        
                         <div class= "wireframe_1">
                             <img src="/images/00_ideaboard/Hi_fi_wireframes/Mobile_1.svg" alt="hifi">
                         </div>
@@ -714,11 +720,76 @@
                             <img src="/images/00_ideaboard/Hi_fi_wireframes/Mobile_3.svg" alt="hifi">
                         </div>
                     </div>
-            <div class="button">
-                <button class="btn_flow"></i> See User Flows<i class="fa fa-angle-right"></i></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="single_col">
+                    <div class="para_content"></div>
+                        <p>Another round of usability tests in the books and I had successfully designed a platform where: 
+                            <ul>
+                                <li>You can take notes anywhere on an infinite canvas. </li>
+                                <li>You can organize notes into notes and boards, as well as star and tag particular notes for easy future reference.</li>
+                                <li>You can upload links from the web as well as upload files.</li>
+                                <li>You can display and play text, pdfs, images as well as video.</li>
+                                <li>You can share single note or entire board with your peers and collaborate in real time.</li>
+                                <li>You can export notes and boards in various formats.</li>
+                                <li>You can easily search through all notes, boards and tags, right from your dashboard.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="key_takeaways">
+            <div class="container">
+                <div class="single_col">
+                    <h2>Key Takeaways</h2>
+                    <p>Idea Board is my first major project where I took client’s vague concept, defined it based on the data and created a working prototype. </p>
+                    <p>My background in content has taught me one thing- it’s all about the story- about the hero’s journey. In this case, the hero is our user. So for me the most important thing was to learn how they do a particular task- what steps they go through- what are the obstacles and how we can make this journey easy for them. Luckily, my background in content has also given me a number of skills like empathy, conducting interviews, analysing micro-reactions, etc that directly helped in creation of this app. </p>
+                    <p>The most important lessons I learned are as follows:</p>
+                    <h3>1: I as a designer has to be the problem finder- before I am a problem solver.</h3>
+                    <p> Asking right questions is harder than finding the right answers. If we know the problem, there are ways to solve it, test it and make sure it works. However, the biggest issue is figuring out how to ask the right question.  From what I gather, the questions should start out being macro- but then, get into the micro. If we want to create a better experience, it is important to take time and understand the step by step process that an user goes through while performing a task. </p>
+                    <h3>2:Keep it easy.  </h3>
+                    <p>As a designer there’s a natural desire to try something out of the box every single time. I come from visual - motion graphics background, and browsing through Dribble and Behance is my hobby. So I was temped to add a lot of bells and whistles to every page of the screen. However, when I did preference tests, I understood that people are inclined to pick what they’re used to, they like it when it’s simple. “Don’t make them think!”</p>
+                    <h3>3: Simple is hard</h3>
+                    <p>There is truly a paradox of choice. When we try to offer too many options, it is often more difficult for people to choose one. So I, as a designer has to make the right choices, so you don’t have to.</p>
+                   <p>In case of Idea Board, the client was interested in every conceivable option when it came to cloud storage. It was my job to figure out the scope. </p>
+                   <p>I strived for simplicity in wireframes and aesthetics as well. How can I use one step to do this function instead of two. How do I add more context to it? Am I appropriate feedback within reasonable time? Are these colors helping them navigate or distracting? How do I minimize the user's memory load by making objects, actions, and options visible- when they need it.</p>
+                   <h3>4: The devil is in the details.</h3>
+                   <p>This is true from User Survey to Interface Design. I found myself thinking a lot about small things. I remember asking questions like- “Do you find yourself exporting .pdfs or .jpgs more often?”, or “Where do you find inspiration”, “What is the amount of time you spend on sites like Pintrest, Dribble, Behance, etc” “Where do you save notes from your client phone calls” 
+                    I also wanted to make sure my survey was taken by my target market. In order to do this without having the resources to pay for it, I found Facebook groups of designers and creatives and posted my survey there. I think it helped me get a lot more focused responses. </p>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="fixed-footer">
+            <img src="/images/T_Footer_Logo.svg" class="hvr-grow" alt="logo"> 
+            <p class="footertext">Feel free to reach out for collaborations or just a friendly hello 😀
+             <a href="mailto:someone@example.com">tejal@studiotcreative.com</a></p>
+                <div class="copyright">Copyright &copy; 2020 Tejal Shah</div>        
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <script>
+                //Get the button
+                var mybutton = document.getElementById("myBtn");
                 
-            </div>
-            </div>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
         </section>
             
 
