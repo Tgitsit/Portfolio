@@ -789,6 +789,8 @@ p.footertext a {
 }
 
 
+
+
 @media all and (min-width: 768px) {
   audio {
     grid-template-columns: 1fr 2fr;
@@ -807,10 +809,10 @@ p.footertext a {
 
 @media all and (min-width: 768px) {
   .idea_hero_grid {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   grid-gap: 56px;
   width: 100%;
-  margin-top: 8rem;
+  margin-top: 6rem;
   align-items: flex-end;
   }
 }
@@ -904,11 +906,33 @@ p.footertext a {
 }
 
 
+.idea_four_col_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding: 4rem;
+  grid-gap: 10px;
+}
+
+
+
+.hifi_background_royalblue {
+  background-color: #1A47B0;
+}
+
+.hifi_background_navyblue {
+  background-color: #1B236D;
+  }
+
+
 .ib_three_column_grid{
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
   margin-top: 2rem;
+  padding: 2rem;
+  grid-gap: 10px;
 }
 
 
@@ -926,6 +950,14 @@ p.footertext a {
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .idea_four_col_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 4rem;
   }
   
 }
@@ -1360,7 +1392,7 @@ button.btn {
 }
 
 .hero_background {
-  background-image: url(images/00_ideaboard/Ideaboard_hero_bg_1.svg);
+  background-color: #F4F4F4;
 }
 
 .tools_i_used {
@@ -1447,4 +1479,21 @@ button.btn {
 
 .padtop{
   padding-top: 2rem;
+}
+
+.ib_type_mont {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #373737;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.ib_type_sans {
+  font-family: "Open-Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  color: #373737
 }
