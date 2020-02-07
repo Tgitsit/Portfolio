@@ -196,6 +196,13 @@ li{
   color: #595F6F;
 }
 
+.nopad {
+  margin-bottom: 0;
+  margin-top:0;
+  padding:0;
+}
+
+
 ul {
   list-style-type:circle;
   margin-left:1rem;
@@ -819,7 +826,7 @@ p.footertext a {
 
 .hero_container {
   height: 70vh;
-  width: 75%; 
+  width: 90%; 
   margin: 0 auto;
 }
 
@@ -911,9 +918,9 @@ p.footertext a {
   width: 100%;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  padding: 4rem;
   grid-gap: 10px;
 }
+
 
 
 
@@ -932,7 +939,16 @@ p.footertext a {
   width: 100%;
   margin-top: 2rem;
   padding: 2rem;
-  grid-gap: 10px;
+  grid-gap: 3rem;
+}
+
+.ib_two_column_grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  grid-gap: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 
@@ -947,17 +963,25 @@ p.footertext a {
 @media all and (min-width: 578px) {
   .ib_three_column_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 3fr;
     width: 100%;
     margin-top: 2rem;
     justify-content: center;
   }
 
+  .ib_two_column_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+
   .idea_four_col_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
-    padding: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   
 }
@@ -1376,6 +1400,7 @@ margin-bottom: 0;
 }
 
 
+
 .button {
   display: flex;
   align-items: center;
@@ -1445,7 +1470,7 @@ button.btn {
 
 .two_col_content_left, 
 .two_col_content_right {
-  margin: 10%;
+  margin: 5%;
   align-items: center;
   justify-content: center;
 }
@@ -1492,6 +1517,7 @@ button.btn {
 
 .see_more {
   margin: 0 auto;
+  width: 10%;
 }
 
 .padtop{
