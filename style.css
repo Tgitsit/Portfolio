@@ -921,6 +921,12 @@ p.footertext a {
   width: 100%;
 }
 
+.two_column_grid_hmv {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
 
 .idea_four_col_grid {
   display: grid;
@@ -960,7 +966,7 @@ p.footertext a {
   grid-template-columns: 1fr;
   width: 100%;
   grid-gap: 1rem;
-  padding-top: 5rem;
+  padding-top: rem;
   padding-bottom: 5rem;
 }
 
@@ -1016,6 +1022,11 @@ p.footertext a {
     grid-template-columns: 1fr 1fr;
   }
 
+  .two_column_grid_hmv {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
     
   .two_col_background {
       grid-template-columns: 1fr 1fr;
@@ -1145,14 +1156,13 @@ p.footertext a {
    margin-top: 150px;
  }
 
- .nomobile {
-   display: none;
- }
 
 .svg-mobile {
   width: 90%;
   margin: 0 auto;
 }
+
+
 
  @media all and (min-width: 680px) {
 
@@ -1160,9 +1170,13 @@ p.footertext a {
     width: 100%;
   }
 
-  /* .nomobile {
+  .nomobile {
     display: block;
-  } */
+  } 
+
+  .mobile {
+    display: none;
+  }
 
   .inspiration_grid {
     display: grid;
@@ -1195,6 +1209,7 @@ p.footertext a {
   transition-duration: 0.3s;
   transition-property: transform;
 }
+
 
 @media all and (min-width: 48rem){
   .hvr-grow:hover,
@@ -1246,6 +1261,7 @@ p.footertext a {
   grid-template-columns: 1fr;
 }
 
+
 .nestle_grid_columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1286,10 +1302,18 @@ p.footertext a {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 0.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
   }
   
+  .three_column_grid_beforesection {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+ }
+
   .persona_name {
     padding: 1.5rem;
     margin: 0 auto;
@@ -1495,6 +1519,13 @@ button.btn {
   justify-content: center;
 }
 
+.two_col_content_hmv {
+  padding: 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 @media all and (min-width: 680px) {
   .two_col_content_left {
@@ -1624,4 +1655,32 @@ button.btn {
 
 .pink_text {
   color:#FBD3D2;
+}
+
+.survey_analysis {
+  padding-top: 2rem;
+}
+
+
+.mobile {
+  display: block;
+}
+
+.nomobile {
+  display: none;
+}
+
+
+@media all and (min-width: 578px) {
+  .mobile{
+    display: none;
+  }
+
+    .nomobile{
+      display: block;
+    }
+  }
+
+.addgap {
+  grid-gap: 1rem;
 }
