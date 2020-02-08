@@ -138,6 +138,13 @@ body {
      margin-top: 2rem;
    }
 
+   .small {
+     font-size: 14px;
+     font-weight: lighter;
+     padding: 0;
+     margin: 0.5rem;
+   }
+
 .italic {
   font-weight: lighter;
   font-style: italic;
@@ -191,7 +198,6 @@ li{
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  margin-bottom: 1.5rem;
   line-height: 150%;
   color: #595F6F;
 }
@@ -443,6 +449,12 @@ a {
   background-color: #fff;
   justify-content: space-between;
 }
+
+.idea_role_right {
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 li .margin {
   margin-top: 2px;
@@ -752,8 +764,6 @@ p.footertext a {
 }
 
 .idea_process_image {
-  margin-top: 1rem;
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -909,7 +919,6 @@ p.footertext a {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  margin-top: 2rem;
 }
 
 
@@ -922,7 +931,13 @@ p.footertext a {
 }
 
 
-
+.idea_role_three_col_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  width: 100%;
+  grid-gap: 5rem;
+}
 
 .hifi_background_royalblue {
   background-color: #1A47B0;
@@ -937,9 +952,7 @@ p.footertext a {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  margin-top: 2rem;
-  padding: 2rem;
-  grid-gap: 3rem;
+  grid-gap: 1rem;
 }
 
 .ib_two_column_grid{
@@ -963,10 +976,8 @@ p.footertext a {
 @media all and (min-width: 578px) {
   .ib_three_column_grid{
     display: grid;
-    grid-template-columns: 2fr 3fr 3fr;
-    width: 100%;
-    margin-top: 2rem;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%; 
   }
 
   .ib_two_column_grid{
@@ -984,6 +995,14 @@ p.footertext a {
     padding-bottom: 5rem;
   }
   
+  .idea_role_three_col_grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 3fr 1fr;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
 }
 
 @media all and (min-width: 568px) {
@@ -1435,6 +1454,7 @@ button.btn {
 
 .hero_background {
   background-color: #F4F4F4;
+  padding-bottom: 3rem;
 }
 
 .tools_i_used {
@@ -1539,4 +1559,69 @@ button.btn {
   font-weight: normal;
   text-align: center;
   color: #373737
+}
+
+.new_my_role {
+  background-color: #FFB000;
+}
+
+.idea_myrole_grid {
+
+}
+
+@media all and (min-width: 768px) {
+  .idea_myrole_grid {
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 56px;
+    width: 100%;
+  }
+
+ .my_role_two_col {
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 56px;
+  width: 100%;
+ }
+}
+
+.pink {
+  background-color: #FBD3D2;
+}
+
+.darkpink{
+  background-color:#F39796;
+}
+
+.my_role_two_col_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 5fr;
+  width: 100%;
+  grid-gap: 3rem;
+}
+
+.my_role_left {
+  margin-left: 160px;
+}
+.royalblue {
+  background-color: #1A47B0;
+}
+
+.navyblue {
+  background-color: #1B236D;
+  }
+
+.white {
+  color: white;
+}
+
+.yellow {
+  background-color: #F8AC15;
+}
+
+.footer_gray {
+  background-color: #202020;
+}
+
+.pink_text {
+  color:#FBD3D2;
 }
