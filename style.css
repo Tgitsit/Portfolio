@@ -921,6 +921,14 @@ p.footertext a {
   width: 100%;
 }
 
+
+.two_column_grid_withpadding {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .two_column_grid_hmv {
   display: grid;
   grid-template-columns: 1fr;
@@ -946,7 +954,7 @@ p.footertext a {
 }
 
 .hifi_background_royalblue {
-  background-color: #1A47B0;
+  background-color: #32397C;
 }
 
 .hifi_background_navyblue {
@@ -966,7 +974,7 @@ p.footertext a {
   grid-template-columns: 1fr;
   width: 100%;
   grid-gap: 1rem;
-  padding-top: rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -1025,12 +1033,17 @@ p.footertext a {
   .two_column_grid_hmv {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
   }
     
   .two_col_background {
       grid-template-columns: 1fr 1fr;
     }
+  }
+
+  .two_column_grid_withpadding {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
   }
 
   .survey_grid {
@@ -1424,7 +1437,6 @@ margin-bottom: 0;
 }
 
 .flow {
-  margin-bottom: 5rem;
   position: relative;
 }
 
@@ -1455,6 +1467,7 @@ margin-bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .style_map {
@@ -1634,7 +1647,7 @@ button.btn {
   margin-left: 160px;
 }
 .royalblue {
-  background-color: #1A47B0;
+  background-color: #32397C;
 }
 
 .navyblue {
@@ -1681,6 +1694,7 @@ button.btn {
     }
   }
 
-.addgap {
-  grid-gap: 1rem;
-}
+  .colortest {
+    background-color: teal;
+    height: 200px;
+  }
