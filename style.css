@@ -471,10 +471,22 @@ a {
   justify-content: space-between;
 }
 
+@media all and (min-width: 680px) {
+  .idea_role_right {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+
 .idea_role_right {
   justify-content: space-between;
   align-items: center;
+  border-left: 0.5px solid #fff;
 }
+
 
 
 li .margin {
@@ -950,13 +962,39 @@ p.footertext a {
   margin-top: 2rem;
 }
 
+
+
+.two_column_grid_ui_withpadding {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .two_column_grid_hmv {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
   grid-gap: 1rem;
+  grid-template-areas: 
+  "anna_1"
+  "anna_2"
+  "marc_2"
+  "marc_1";
 }
 
+.anna_1 {
+  grid-area: anna_1;
+}
+.anna_2 {
+  grid-area: anna_2;
+}
+.marc_1 {
+  grid-area: marc_1;
+}
+.marc_2 {
+  grid-area: marc_2;
+}
 
 .idea_four_col_grid {
   display: grid;
@@ -1035,6 +1073,10 @@ p.footertext a {
     padding-bottom: 5rem;
   }
   
+
+}
+
+@media all and (min-width: 1024px) {
   .idea_role_three_col_grid {
     display: grid;
     width: 100%;
@@ -1043,8 +1085,20 @@ p.footertext a {
     padding-bottom: 2rem;
     grid-gap: 5rem;
   }
-
 }
+
+
+@media all and (min-width: 500px) {
+  .idea_role_three_col_grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 3fr 1fr;
+    width: 100%;
+    padding-bottom: 1rem;
+    grid-gap: 1.5rem;
+  }
+}
+
 
 @media all and (min-width: 568px) {
   .wireframes_grid{
@@ -1061,6 +1115,9 @@ p.footertext a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     padding: 2rem 2rem 0 2rem;
+    grid-template-areas: 
+    "anna_1 marc_1"
+    "anna_2 marc_2";
   }
     
   .two_col_background {
@@ -1069,6 +1126,11 @@ p.footertext a {
   }
 
   .two_column_grid_withpadding {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+  }
+
+  .two_column_grid_ui_withpadding{
     grid-template-columns: 1fr 1fr;
     padding-top: 2rem;
   }
@@ -1810,7 +1872,7 @@ button.btn {
   }
 
 
-  @media all and (min-width: 578px) {
+  @media all and (min-width: 768px) {
     .my_role_v3 {
       padding-bottom: 0;
     }
@@ -1855,4 +1917,50 @@ button.btn {
     padding-top: 2rem;
   }
 }
+
+.grid_restructure {
+  display: grid;
+  grid-template-columns: 1fr
+  justify-content: center;
+  align-items: center;
+}
+
+.v4_myrole_left {
+  padding-left: 4%;
+}
+
+
+.v4_myrole_subgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
   
+@media all and (min-width: 578px) {
+  .grid_restructure {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .v4_myrole_subgrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2rem;
+  }
+  
+  .v4_myrole_left {
+    padding-left: 32%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .v4_myrole_right {
+    padding-right: 17%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+}
