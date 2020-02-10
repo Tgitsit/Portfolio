@@ -99,6 +99,13 @@ body {
   }
 }
   
+
+.center_text {
+text-align: center;
+}
+
+
+
     .subhead {
       margin-bottom: 1.5rem;
       font-weight: normal;
@@ -1195,11 +1202,20 @@ p.footertext a {
   margin: 0 auto;
 }
 
+.svg-mobile_idea {
+  width: 100%;
+  margin: 0 auto;
+}
+
 
 
  @media all and (min-width: 680px) {
 
   .svg-mobile {
+    width: 100%;
+  }
+
+  .svg-mobile_idea {
     width: 100%;
   }
 
@@ -1264,6 +1280,7 @@ p.footertext a {
 /* persona */
 
 
+
 .personas_background_1 {
   background-color:  #EFEEEA;
   background-attachment: fixed;
@@ -1283,6 +1300,18 @@ p.footertext a {
 .column_one {
   padding: 4rem;
   margin: 0 auto;
+}
+
+.column_one_idea {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 578px) {
+  .column_one_idea {
+    padding: 4rem;
+    margin: 0 auto;
+  }
 }
 
 .opportunity {
@@ -1364,6 +1393,13 @@ p.footertext a {
     padding: 0;
     margin: 0 auto;
   }
+
+  .column_one_idea {
+    background-color:#171A81;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
   
   .column_two {
     background-color:#fff;
