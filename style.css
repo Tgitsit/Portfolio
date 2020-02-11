@@ -1489,17 +1489,17 @@ p.footertext a {
   
   .middle_row_one {
     background-color: #Fff;
-    padding: 1.5rem;
+    padding-left: 1.5rem;
   }
   
   .middle_row_two {
     background-color:  #Fff;
-    padding: 1.5rem;
+    padding-left: 1.5rem;
   }
   
   .middle_row_three {
     background-color:  #fff;
-    padding: 1.5rem;
+    padding-left: 1.5rem;
   }
   
   .right_column_top {
@@ -1847,6 +1847,7 @@ button.btn {
   display: block;
 }
 
+
 .nomobile {
   display: none;
 }
@@ -1993,4 +1994,3 @@ background: rgb(131,58,180);
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
-
