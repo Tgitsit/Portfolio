@@ -987,11 +987,11 @@ p.footertext a {
   "home_hero_bottom";
 }
 
-.two_col_content_left {
+.home_two_col_left {
   grid-area: home_hero_bottom;
 }
 
-.two_col_content_right {
+.home_two_col_right {
   grid-area: home_hero_top;
 }
 
@@ -1014,6 +1014,7 @@ p.footertext a {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
+
 }
 
 
@@ -1212,7 +1213,7 @@ p.footertext a {
     align-items: center;
     margin-top: 0;
     grid-template-areas: 
-  "home_hero_bottom home_hero_bottom";
+    "home_hero_bottom home_hero_top";
   }
 
   .two_column_grid_hmv {
