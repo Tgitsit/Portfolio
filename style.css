@@ -2251,3 +2251,24 @@ background: rgb(131,58,180);
 .pad_top {
   padding-top: 1rem;
 }
+
+
+
+.persona_icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background: green;
+  text-align: center;
+}
+
+.persona_chris {
+  margin: 0;
+  background: yellow;
+  padding: 20px;
+}
+
+.ul img {
+  width: 100%;
+}
