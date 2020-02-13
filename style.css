@@ -26,6 +26,10 @@ body {
     text-align: left;
   }
 
+  .left_center {
+    text-align: center;
+  }
+
   h2 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
@@ -98,6 +102,11 @@ body {
   h6 {
     font-size: 1.5rem;
   }
+
+  .left_center {
+    text-align: left;
+  }
+
 }
   
 
@@ -622,12 +631,12 @@ li .margin {
 
 .footer {
   height: 50vh;
-  background-color: #202020;
+  background-color: #1B236D;
   color:  rgb(230, 230, 230);
   font-family: roboto, sans serif;
   font-weight: lighter;
   font-size: 0.75rem;
-  margin-top: 7rem;
+  margin-top: 3rem;
   text-align: center;
 }
 p.footertext {
@@ -635,7 +644,7 @@ p.footertext {
 }
 
 p.footertext a {
-  color: #75B8F1;
+  color: #FBD3D2;
   }
 
 .footertext {
@@ -1014,7 +1023,15 @@ p.footertext a {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
+}
 
+.home_featured_two_col_flip{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  grid-template-areas:
+  "burgen_right"
+  "burgen_left";
 }
 
 
@@ -1090,6 +1107,7 @@ p.footertext a {
   width: 100%;
   padding-left: 4%;
   padding-right: 4%;
+  grid-gap: 1rem;
 }
 
 .home_six_col {
@@ -1240,6 +1258,18 @@ p.footertext a {
   grid-template-columns: 1fr 1fr;
   padding-top: 0;
   margin-top: 0;
+}
+
+.home_featured_two_col_flip {
+  grid-template-columns: 1fr 1fr;
+  padding-top: 0;
+  margin-top: 0;
+  grid-template-areas:
+  "burgen_left burgen_right";
+}
+
+.home_featured_left_flip {
+  grid-area=
 }
 
 
@@ -1606,6 +1636,7 @@ p.footertext a {
   .nestle_grid_columns_three {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
   }
   
   .middle_row_one {
@@ -1704,12 +1735,14 @@ margin-bottom: 0;
   right: 20;
   bottom: 20;
   padding:0.6em 1em;
-   border-radius: 4px;
+  border-radius: 4px;
   background-color: Transparent;
   background-repeat:no-repeat;
   border:1px solid #1A47B0;
   cursor:pointer;
-  overflow: hidden;     
+  overflow: hidden;    
+  margin-top: 1rem;
+  margin-bottom: 2rem; 
 }
 
 .btn_home_pink {
@@ -1751,6 +1784,7 @@ margin-bottom: 0;
     border:1px solid #1A47B0;
     cursor:pointer;
     overflow: hidden;
+    margin-top: 1.5rem;
   }
 
   .btn_home_pink {
@@ -1872,6 +1906,15 @@ button.btn {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+
+.home_featured_left_flip {
+  grid-area: burgen_left;
+}
+
+.home_featured_right_flip {
+  grid-area: burgen_right;
 }
 
 
@@ -2050,7 +2093,7 @@ button.btn {
 }
 
 .footer_gray {
-  background-color: #202020;
+  background-color: #1B236D;
 }
 
 .pink_text {
@@ -2259,14 +2302,13 @@ background: rgb(131,58,180);
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  background: green;
   text-align: center;
+  background-color: #fbd3d2;
 }
 
 .persona_chris {
   margin: 0;
-  background: yellow;
-  padding: 20px;
+  padding: 1rem;
 }
 
 .ul img {
