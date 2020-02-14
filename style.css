@@ -12,12 +12,12 @@ body {
 
  h1 {
     font-family: "Roboto", sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
     font-size: 2rem;
     width: 100%;
     line-height: 150%;
     color: #1A47B0;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     text-align: center;
       }
 
@@ -70,7 +70,7 @@ body {
       width: 100%;
       line-height: 150%;
       margin-bottom: 0.5em;
-      font-color:#1A47B0;
+      color:#1A47B0;
         }    
           
     h6 {
@@ -87,6 +87,7 @@ body {
 @media all and (min-width: 780px) {
   h1 {
     font-size: 3rem;
+    font-weight: 500;
   }
 
   h2 {
@@ -107,8 +108,15 @@ body {
     text-align: left;
   }
 
+  .extrapad_mobile {
+    margin-bottom: 0;
+  }
+
 }
   
+.extrapad_mobile {
+  margin-bottom: 4rem;
+}
 
 .center_text {
 text-align: center;
@@ -153,7 +161,7 @@ text-align: center;
     }
     
     .bold{
-      font-weight: bold;
+      font-weight: 500;
     }
     
    .margintop {
@@ -996,6 +1004,14 @@ p.footertext a {
   "home_hero_bottom";
 }
 
+.about_hero_two_column_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  align-items: flex-end;
+  margin-top: 5rem;
+}
+
 .home_two_col_left {
   grid-area: home_hero_bottom;
 }
@@ -1234,6 +1250,16 @@ p.footertext a {
     "home_hero_bottom home_hero_top";
   }
 
+  .about_hero_two_column_grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-right: 25%;
+    grid-gap: 8rem;
+    margin-top: 0;
+  }
+
+
+
   .two_column_grid_hmv {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
@@ -1268,9 +1294,7 @@ p.footertext a {
   "burgen_left burgen_right";
 }
 
-.home_featured_left_flip {
-  grid-area=
-}
+
 
 
   .two_column_grid_ui_withpadding{
@@ -1745,6 +1769,21 @@ margin-bottom: 0;
   margin-bottom: 2rem; 
 }
 
+.btn_about {
+  right: 20;
+  bottom: 20;
+  padding:0.6em 1em;
+  border-radius: 4px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border:1px solid #1A47B0;
+  cursor:pointer;
+  overflow: hidden;    
+  margin-top: 1rem;
+  margin-bottom: 2rem; 
+}
+
+
 .btn_home_pink {
   right: 20;
   bottom: 20;
@@ -1775,6 +1814,20 @@ margin-bottom: 0;
 
   .btn_home {
     right: 20;
+    bottom: 20;
+    padding:0.6em 1em;
+    border-radius: 4px;
+    background-color: Transparent;
+    color:  #1A47B0;
+    background-repeat:no-repeat;
+    border:1px solid #1A47B0;
+    cursor:pointer;
+    overflow: hidden;
+    margin-top: 1.5rem;
+  }
+
+  .btn_about {
+    right: 0;
     bottom: 20;
     padding:0.6em 1em;
     border-radius: 4px;
@@ -1908,6 +1961,19 @@ button.btn {
   text-align: center;
 }
 
+.about_two_col_content_right {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.about_two_col_content_left {
+  margin: 0;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
 
 .home_featured_left_flip {
   grid-area: burgen_left;
@@ -1958,14 +2024,34 @@ button.btn {
     text-align: left;
   }
 
+  .about_two_col_content_left {
+    margin: 0;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+
+   
   .home_two_col_content_right {
-    margin-left: 15%;
+    margin-left: 25%;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-right: 25%;
     text-align: center;
   }
 
+
+
+  .about_two_col_content_right {
+    margin-left: 15%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
 
   .home_featured_content_left {
     margin-left: 25%;
@@ -1980,11 +2066,8 @@ button.btn {
     margin-bottom: 5rem;
     margin-right: 25%;
   }
-
-
-
-
 } 
+
 
 .padded {
   margin-left: 15%;
@@ -2039,9 +2122,6 @@ button.btn {
   background-color: #FFB000;
 }
 
-.idea_myrole_grid {
-
-}
 
 @media all and (min-width: 768px) {
   .idea_myrole_grid {
@@ -2189,7 +2269,7 @@ button.btn {
 
 .grid_restructure {
   display: grid;
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
 }
@@ -2313,4 +2393,34 @@ background: rgb(131,58,180);
 
 .ul img {
   width: 100%;
+}
+
+.my_story {
+  padding-top: 6rem;
+}
+
+@media all and (min-width: 578px) {
+  .my_story {
+    padding-top: 4rem;
+  }
+}
+
+.about_four_col_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 56px;
+  width: 100%;
+  margin-top: 2rem;
+  grid-gap: 1rem;
+}
+
+@media all and (min-width: 578px) {
+
+  .about_four_col_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 56px;
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
