@@ -19,6 +19,7 @@ body {
     color: #1A47B0;
     margin-bottom: 1rem;
     text-align: center;
+    letter-spacing: -.2px;
       }
 
 
@@ -39,6 +40,7 @@ body {
     color: #1A47B0;
     margin-bottom: 1.5rem;
     text-align: left;
+    letter-spacing: -.2px;
       }   
 
 
@@ -94,6 +96,7 @@ body {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2.5rem;
+    letter-spacing: -.2px;
   }
 
   h3 {
@@ -209,6 +212,10 @@ figcaption {
 
 .left {
   text-align: left;
+}
+
+.right_align {
+  text-align: right;
 }
 
 .name{
@@ -1009,7 +1016,7 @@ p.footertext a {
   grid-template-columns: 1fr 1fr;
   width: 100%;
   align-items: flex-end;
-  margin-top: 5rem;
+  padding-top: 2rem;
 }
 
 .home_two_col_left {
@@ -1962,17 +1969,19 @@ button.btn {
 }
 
 .about_two_col_content_right {
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: first baseline;
   text-align: center;
+  margin-right: 4%;
 }
 
 
 .about_two_col_content_left {
-  margin: 0;
+  margin-top: 3rem;
   align-items: left;
   justify-content: left;
   text-align: left;
+  background-color:#FBD3D2;
 }
 
 .home_featured_left_flip {
@@ -2025,10 +2034,11 @@ button.btn {
   }
 
   .about_two_col_content_left {
-    margin: 0;
+    margin-top: 3rem;
     align-items: left;
     justify-content: left;
     text-align: left;
+    background-color:#FBD3D2;
   }
 
    
@@ -2043,8 +2053,7 @@ button.btn {
 
 
   .about_two_col_content_right {
-    margin-left: 15%;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-bottom: 5rem;
     margin-right: 25%;
     text-align: center;
@@ -2403,6 +2412,10 @@ background: rgb(131,58,180);
   .my_story {
     padding-top: 4rem;
   }
+}
+
+.my_story {
+  padding-top: 2rem;
 }
 
 .about_four_col_grid{
