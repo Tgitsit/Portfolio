@@ -1777,8 +1777,6 @@ margin-bottom: 0;
 }
 
 .btn_about {
-  right: 20;
-  bottom: 20;
   padding:0.6em 1em;
   border-radius: 4px;
   background-color: Transparent;
@@ -1788,8 +1786,12 @@ margin-bottom: 0;
   overflow: hidden;    
   margin-top: 1rem;
   margin-bottom: 2rem; 
+  float: left;
 }
 
+.btn_about > i {
+  margin-left: 1rem;
+}
 
 .btn_home_pink {
   right: 20;
@@ -2436,4 +2438,9 @@ background: rgb(131,58,180);
     width: 100%;
     margin-top: 2rem;
   }
+}
+
+
+.video_example {
+  margin-top: 4rem;
 }
