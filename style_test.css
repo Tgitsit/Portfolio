@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+@import url("https://use.typekit.net/ymq2efo.css");
+@import url("https://use.typekit.net/ymq2efo.css");
 
 body { 
     background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Futura', sans-serif;
     text-align: left;
     font-size: 16px;
     color: black;
@@ -51,8 +53,7 @@ p {
         "overview overview overview overview overview overview overview overview overview overview overview overview"
         "outcome outcome outcome outcome outcome outcome outcome outcome outcome outcome outcome outcome"
         "challanges challanges challanges challanges challanges challanges challanges challanges challanges challanges challanges challanges "
-     
-}    
+        }    
    
 
 
@@ -85,8 +86,8 @@ p {
     padding: 1rem;
     grid-area: challanges;
 }
+}
 
 /* END main site grid ----------------------------------------------------------------*/
 
 /* Hero Section ----------------------------------------------------------------*/
-

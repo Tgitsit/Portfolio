@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900&display=swap');
+@import url("https://use.typekit.net/ymq2efo.css");
+@import url("https://use.typekit.net/ymq2efo.css");
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700,800&display=swap');
+@import url("https://use.typekit.net/ymq2efo.css");
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i&display=swap');
+@import url("https://use.typekit.net/ymq2efo.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+
+
+
 
 /*  Fonts and Color*/
 
@@ -11,11 +24,12 @@ body {
     }
 
  h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "montserrat", sans-serif;
+    font-weight: bolder;
     font-size: 2rem;
+    font-weight: 700;
     width: 100%;
-    line-height: 150%;
+    line-height: 140%;
     color: #1A47B0;
     margin-bottom: 1rem;
     text-align: center;
@@ -32,11 +46,11 @@ body {
   }
 
   h2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: lighter;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
     font-size: 1.5rem;
     width: 100%;
-    line-height: 150%;
+    line-height: 140%;
     color: #1A47B0;
     margin-bottom: 1.5rem;
     text-align: left;
@@ -47,17 +61,17 @@ body {
     
 
   h3 {
-    font-family: "Roboto", sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 1.2rem;
-    font-weight: lighter;
+    font-weight: 00;
     margin-bottom: 0.75rem;
     width: 100%;
-    line-height: 150%;
+    line-height: 140%;
     color: #1A47B0;
     }
 
     h4 {
-      font-family: "Roboto", sans-serif;
+      font-family: "montserrat", sans-serif;
       font-size: 1rem;
       font-weight: normal;
       width: 100%;
@@ -67,29 +81,37 @@ body {
         }
     
     h5 {
-      font-family: "Roboto", sans-serif;
+      font-family: "montserrat", sans-serif;
       font-size: 0.75rem;
       width: 100%;
-      line-height: 150%;
+      line-height: 140%;
       margin-bottom: 0.5em;
       color:#1A47B0;
         }    
           
     h6 {
-      font-family: "Roboto", sans-serif;
+      font-family: "montserrat", sans-serif;
       font-size: 1.35rem;
       font-weight: lighter;
       margin-bottom: auto;
-      line-height: 150%;
+      line-height: 140%;
       color: #75B8F1
     }
 
 
+@media all and (min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+    text-align: left;
+  }
+}
+
 
 @media all and (min-width: 780px) {
+  
   h1 {
     font-size: 3rem;
-    font-weight: 500;
+    text-align: left;
   }
 
   h2 {
@@ -151,12 +173,12 @@ text-align: center;
  
 
   p {
-    font-family: "Roboto", sans-serif;
+    font-family:  "montserrat", sans-serif;;
     font-size: 1rem;
-    font-weight: normal;
-    margin-bottom: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
     line-height: 150%;
-    color: #595F6F;
+    color: rgb(53, 58, 74);
     }
 
     .light {
@@ -204,7 +226,7 @@ text-align: center;
 figcaption {
   color: #595F6F;
   margin-top: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 00.75rem;
   font-weight: lighter;
   text-align: center;
@@ -225,17 +247,17 @@ figcaption {
 
 .quoteby {
   color: #595F6F;
-  font-family: "Roboto", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 00.75rem;
   font-weight: lighter;
   text-align: center;
 }
 
 li{
-  font-family: "Roboto", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 150%;
+  line-height: 140%;
   color: #595F6F;
 }
 
@@ -648,7 +670,7 @@ li .margin {
   height: 50vh;
   background-color: #1B236D;
   color:  rgb(230, 230, 230);
-  font-family: roboto, sans serif;
+  font-family: montserrat, sans serif;
   font-weight: lighter;
   font-size: 0.75rem;
   margin-top: 3rem;
@@ -1849,8 +1871,8 @@ margin-bottom: 0;
     margin-top: 1.5rem;
   }
 
-  .btn_home_pink {
-    right: 20;
+   .btn_about_pink {
+    right: 0;
     bottom: 20;
     padding:0.6em 1em;
     border-radius: 4px;
@@ -1860,6 +1882,22 @@ margin-bottom: 0;
     border:1px solid #FBD3D2;
     cursor:pointer;
     overflow: hidden;
+    margin-top: 1.5rem;
+  }
+
+
+  .btn_home_pink {
+    right: 0;
+    bottom: 20;
+    padding:0.6em 1em;
+    border-radius: 4px;
+    background-color: Transparent;
+    color:  #FBD3D2;
+    background-repeat:no-repeat;
+    border:1px solid #FBD3D2;
+    cursor:pointer;
+    overflow: hidden;
+    margin-top: 1.5rem;
   }
   
 }
@@ -2113,7 +2151,7 @@ button.btn {
 }
 
 .ib_type_mont {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: bold;
   text-align: center;
   color: #373737;
@@ -2122,7 +2160,7 @@ button.btn {
 }
 
 .ib_type_sans {
-  font-family: "Open-Sans", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   text-align: center;
