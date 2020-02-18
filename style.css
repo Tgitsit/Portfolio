@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900&display=swap');
-@import url("https://use.typekit.net/ymq2efo.css");
-@import url("https://use.typekit.net/ymq2efo.css");
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:500,700,800&display=swap');
-@import url("https://use.typekit.net/ymq2efo.css");
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i&display=swap');
-@import url("https://use.typekit.net/ymq2efo.css");
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
 
 
 
@@ -21,6 +13,7 @@ body {
 
 :root {
     font-size: 16px;
+    font-family: "montserrat", sans-serif;
     }
 
  h1 {
@@ -29,7 +22,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     width: 100%;
-    line-height: 140%;
+    line-height: 130%;
     color: #1A47B0;
     margin-bottom: 1rem;
     text-align: center;
@@ -47,11 +40,11 @@ body {
 
   h2 {
     font-family: "montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5rem;
     width: 100%;
     line-height: 140%;
-    color: #1A47B0;
+    color:  #1351C3;
     margin-bottom: 1.5rem;
     text-align: left;
     letter-spacing: -.2px;
@@ -63,7 +56,7 @@ body {
   h3 {
     font-family: "montserrat", sans-serif;
     font-size: 1.2rem;
-    font-weight: 00;
+    font-weight: 500;
     margin-bottom: 0.75rem;
     width: 100%;
     line-height: 140%;
@@ -117,7 +110,7 @@ body {
   h2 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     letter-spacing: -.2px;
   }
 
@@ -137,6 +130,12 @@ body {
     margin-bottom: 0;
   }
 
+
+}
+
+
+.single_col_featured{
+  margin-bottom: 4rem;
 }
   
 .extrapad_mobile {
@@ -177,7 +176,7 @@ text-align: center;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1.2rem;
-    line-height: 150%;
+    line-height: 160%;
     color: rgb(53, 58, 74);
     }
 
@@ -1782,6 +1781,7 @@ margin-bottom: 0;
   border:0;
   cursor:pointer;
   margin-bottom:2em;
+  font-family: "montserrat", sans-serif;
 }
 
 .btn_home {
@@ -1796,6 +1796,7 @@ margin-bottom: 0;
   overflow: hidden;    
   margin-top: 1rem;
   margin-bottom: 2rem; 
+  font-family: "montserrat", sans-serif;
 }
 
 .btn_about {
@@ -1809,23 +1810,38 @@ margin-bottom: 0;
   margin-top: 1rem;
   margin-bottom: 2rem; 
   float: left;
+  font-family: "montserrat", sans-serif;
 }
 
 .btn_about > i {
   margin-left: 1rem;
 }
 
-.btn_home_pink {
+.btn_main_pink_outline > i {
+  margin-left: 1rem;
+  font-family: "montserrat", sans-serif;
+
+}
+
+.btn> i {
+  margin-left: 1rem;
+}
+
+
+
+
+.btn_main_pink_outline {
   right: 20;
   bottom: 20;
   padding:0.6em 1em;
-   border-radius: 4px;
+  border-radius: 4px;
   background-color: Transparent;
   background-repeat:no-repeat;
   border:1px solid #FBD3D2;
   color:  #FBD3D2;
   cursor:pointer;
   overflow: hidden;     
+  font-family: "montserrat", sans-serif;
 }
 
 @media all and (min-width: 578px) {
@@ -1843,6 +1859,13 @@ margin-bottom: 0;
     margin-bottom:2em;
   }
 
+
+    .btn_main_pink_outline {
+      margin-top: 1.5rem;
+      font-family: "montserrat", sans-serif;
+    }
+  
+
   .btn_home {
     right: 20;
     bottom: 20;
@@ -1855,6 +1878,7 @@ margin-bottom: 0;
     cursor:pointer;
     overflow: hidden;
     margin-top: 1.5rem;
+    font-family: "montserrat", sans-serif;
   }
 
   .btn_about {
@@ -1869,6 +1893,7 @@ margin-bottom: 0;
     cursor:pointer;
     overflow: hidden;
     margin-top: 1.5rem;
+    font-family: "montserrat", sans-serif;
   }
 
    .btn_about_pink {
@@ -1883,10 +1908,11 @@ margin-bottom: 0;
     cursor:pointer;
     overflow: hidden;
     margin-top: 1.5rem;
+    font-family: "montserrat", sans-serif;
   }
 
 
-  .btn_home_pink {
+  .btn_main_pink {
     right: 0;
     bottom: 20;
     padding:0.6em 1em;
@@ -1898,6 +1924,7 @@ margin-bottom: 0;
     cursor:pointer;
     overflow: hidden;
     margin-top: 1.5rem;
+    font-family: "montserrat", sans-serif;
   }
   
 }
@@ -1908,6 +1935,7 @@ margin-bottom: 0;
   align-items: center;
   justify-content: center;
   margin: 2rem;
+  font-family: "montserrat", sans-serif;;
 }
 
 .hifi_hero {
@@ -1940,6 +1968,7 @@ button.btn {
   font-size: 1rem;
   border:0;
   cursor:pointer;
+  font-family: "montserrat", sans-serif;
 }
 
 
@@ -1953,6 +1982,7 @@ button.btn {
     border:0;
     cursor:pointer;
     margin-bottom:2em;
+    font-family: "montserrat", sans-serif;
   }
 }
 
@@ -2481,4 +2511,10 @@ background: rgb(131,58,180);
 
 .video_example {
   margin-top: 4rem;
+}
+
+.single_col_featured {
+width: 60%;
+padding-bottom: 3rem;
+margin: 0 auto;
 }
