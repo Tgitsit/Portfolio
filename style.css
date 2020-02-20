@@ -18,7 +18,7 @@ body {
 
  h1 {
     font-family: "montserrat", sans-serif;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 2rem;
     font-weight: 700;
     width: 100%;
@@ -99,11 +99,16 @@ body {
   }
 }
 
+.outline {
+  color: #1A47B0;
+  font-weight: 300;
+}
+
 
 @media all and (min-width: 780px) {
-  
+
   h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: left;
   }
 
@@ -130,13 +135,19 @@ body {
     margin-bottom: 0;
   }
 
+  .outline {
+    -webkit-text-stroke: 2px #1A47B0;
+    color: transparent;
+    font-weight: 900;
+}
+  
 
 }
 
 
-.single_col_featured{
-  margin-bottom: 4rem;
-}
+
+
+
   
 .extrapad_mobile {
   margin-bottom: 4rem;
@@ -2099,7 +2110,6 @@ button.btn {
     margin-left: 25%;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-right: 15%;
     text-align: left;
   }
 
@@ -2113,7 +2123,7 @@ button.btn {
 
    
   .home_two_col_content_right {
-    margin-left: 25%;
+    margin-left: 5%;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-right: 25%;
@@ -2514,7 +2524,15 @@ background: rgb(131,58,180);
 }
 
 .single_col_featured {
-width: 60%;
+width: 96%;
 padding-bottom: 3rem;
 margin: 0 auto;
+}
+
+@media all and (min-width: 768px) {
+  .single_col_featured {
+    width: 60%;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    }
 }
