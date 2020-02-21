@@ -1171,7 +1171,7 @@ p.footertext a {
   width: 100%;
   padding-left: 4%;
   padding-right: 4%;
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 
 
@@ -1216,7 +1216,7 @@ p.footertext a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%; 
-    grid-gap: 2rem;
+    grid-gap: 5rem;
     padding-bottom: 3rem;
     padding-top: 1rem;
     padding-left: 12%;
@@ -1284,7 +1284,8 @@ p.footertext a {
   .home_hero_two_column_grid {
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-top: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     grid-template-areas: 
     "home_hero_bottom home_hero_top";
   }
@@ -1292,9 +1293,9 @@ p.footertext a {
   .about_hero_two_column_grid {
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-right: 25%;
     grid-gap: 8rem;
-    margin-top: 0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
 
@@ -2135,7 +2136,6 @@ button.btn {
   .about_two_col_content_right {
     margin-top: 8rem;
     margin-bottom: 5rem;
-    margin-right: 25%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -2535,4 +2535,10 @@ margin: 0 auto;
     padding-bottom: 3rem;
     margin: 0 auto;
     }
+}
+
+.background_dots {
+position: absolute;
+z-index: 1;
+padding-top: 8rem;
 }
