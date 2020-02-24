@@ -367,8 +367,8 @@ mark {
 .parallax_outcome {
   width: 92%;
   margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media all and (min-width: 600px) {
@@ -387,8 +387,8 @@ mark {
 .parallax_style {
   width: 92%;
   margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media all and (min-width: 600px) {
@@ -406,8 +406,8 @@ mark {
 .parallax_iterations{
   width: 92%;
   margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media all and (min-width: 600px) {
@@ -447,8 +447,8 @@ mark {
 .parallax_award{
   width: 92%;
   margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media all and (min-width: 600px) {
@@ -483,7 +483,7 @@ div.stopmotion {
 /*////////////// sections /////////////////////*/
 
 section {
-  padding: 2rem 0 0 0;
+  padding: 3rem 0 0 0;
 }
 
 @media all and (min-width: 600px) {
@@ -739,7 +739,7 @@ p.footertext a {
 }
 
 .newoverview {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 /* .ideaboard_right_column */
@@ -750,11 +750,12 @@ p.footertext a {
   .hero {
     height: 60vh;
   }
-}
 
   .newoverview {
     padding-top: 4rem;
   }
+}
+
 
 
 @media all and (min-width: 1024px) {
@@ -846,7 +847,7 @@ p.footertext a {
 .newoutcome {
   /* background-image: url(images/Outcome_BG.svg); */
   margin-top: 0rem;
-  padding: 5rem 0 0 0;
+  padding: 3rem 0 0 0;
 }
 
 /* .tools, .challenge, .takeaways {
@@ -927,9 +928,9 @@ p.footertext a {
 .burgen_hero_grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 56px;
+    grid-gap: 1rem;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   
   @media all and (min-width: 768px) {
@@ -1004,8 +1005,8 @@ p.footertext a {
 
 
 .testimonial {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
 }
 
 
@@ -1016,6 +1017,10 @@ p.footertext a {
     .single_col {
       width: 90%;
       margin: 0 auto;
+    }
+    .testimonial {
+      padding-top: 5rem;
+      padding-bottom: 2rem;
     }
 }
 
@@ -1036,7 +1041,6 @@ p.footertext a {
   grid-template-columns: 1fr;
   grid-gap: 1.25rem;
   width: 100%;
-  margin-top: 2rem;
 }
 
 .wireframes_grid {
@@ -1481,8 +1485,7 @@ p.footertext a {
  }
 
  .davey {
-   width: 100%;
-   margin-top: 150px;
+   margin-top: 0;
  }
 
 
@@ -1505,8 +1508,15 @@ p.footertext a {
 }
 
 
+.davey_grid_mobile {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin-top: 2rem;
+ }
 
  @media all and (min-width: 680px) {
+
 
   .svg-mobile {
     width: 100%;
@@ -2047,13 +2057,18 @@ button.btn {
     margin-bottom:2em;
     font-family: "montserrat", sans-serif;
   }
-}
 
+  .hero_background {
+    background-color: #FFD4D0;
+    padding-bottom: 3rem;
+  }
+}
 
 .hero_background {
-  background-color: #F4F4F4;
+  background-color:  #FFD4D0;
   padding-bottom: 3rem;
 }
+
 
 .tools_i_used {
   display: flex;
@@ -2590,6 +2605,12 @@ z-index: 1;
 padding-top: 8rem;
 }
 
+.burgen_dots_mobile {
+  position: absolute;
+  z-index: 1;
+  padding-top: 4rem;
+  }
+
 .background_dots_skills {
   position: absolute;
   z-index: 1;
@@ -2620,3 +2641,5 @@ padding-top: 8rem;
   .opening_shot {
     padding-top: 1rem;
   }
+
+ 
