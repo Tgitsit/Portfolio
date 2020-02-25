@@ -22,7 +22,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     width: 100%;
-    line-height: 130%;
+    line-height: 100%;
     color: #1A47B0;
     margin-bottom: 1rem;
     text-align: center;
@@ -69,7 +69,7 @@ body {
       font-weight: normal;
       width: 100%;
       line-height: 100%;
-      margin-bottom: 1em;
+      margin-bottom: 0.3em;
       color: #1A47B0;
         }
     
@@ -227,7 +227,7 @@ text-align: center;
 }
 
 .italic_left{
-  font-weight: lighter;
+  font-weight: 600;
   font-style: italic;
   font-size: 1.1rem;
   line-height: 2rem;
@@ -1317,8 +1317,8 @@ p.footertext a {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 8rem;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
 
@@ -1736,16 +1736,19 @@ p.footertext a {
   .middle_row_one {
     background-color: #Fff;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   
   .middle_row_two {
     background-color:  #Fff;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   
   .middle_row_three {
     background-color:  #fff;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   
   .right_column_top {
