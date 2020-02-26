@@ -872,7 +872,8 @@ p.footertext a {
 
 
 .idea_process_image {
-  padding-bottom: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
 
@@ -1792,7 +1793,7 @@ p.footertext a {
   }
 
   .persona_image {
-    border-radius: 20px 0 0 0;
+    border-radius: 0px 0 0 0;
   }
   
   }
