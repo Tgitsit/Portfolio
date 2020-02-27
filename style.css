@@ -1852,12 +1852,13 @@ margin-bottom: 0;
   right: 20;
   bottom: 20;
   padding:0.6em 1em;
-  border-radius: 8px;
-  color:#fff;
-  background-color:#F92043;
-  font-size:1rem;
-  border:0;
+  border-radius: 4px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border:1px solid #1A47B0;
   cursor:pointer;
+  overflow: hidden;    
+  margin-top: 1rem;
   margin-bottom:2em;
   font-family: "montserrat", sans-serif;
 }
@@ -1868,6 +1869,7 @@ margin-bottom: 0;
   background-color: Transparent;
   background-repeat:no-repeat;
   border:1px solid #1A47B0;
+  color: #1A47B0;
   cursor:pointer;
   overflow: hidden;    
   margin-bottom: 2rem; 
@@ -1902,7 +1904,14 @@ margin-bottom: 0;
   margin-left: 1rem;
 }
 
+.btn_flow> i {
+  margin-left: 1rem;
+}
 
+.btn_flow:hover {
+  background-color: #1A47B0;
+  color: fff;
+}
 
 .btn> i {
   margin-left: 1rem;
@@ -1930,14 +1939,17 @@ margin-bottom: 0;
     position: absolute;
     right: 20;
     bottom: 20;
-    padding:0.6em 2em;
+    padding:0.6em 1em;
     border-radius: 4px;
-    color:#fff;
-    background-color:#F92043;
-    font-size:1.1em;
-    border:0;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border:1px solid #1A47B0;
+    color: #1A47B0;
     cursor:pointer;
+    overflow: hidden;    
+    margin-top: 1rem;
     margin-bottom:2em;
+    font-family: "montserrat", sans-serif;
   }
 
 
