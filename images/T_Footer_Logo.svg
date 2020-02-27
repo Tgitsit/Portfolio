@@ -1,10 +1,12 @@
-<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="60" height="60" rx="10" fill="#176BEF"/>
+<svg width="55" height="61" viewBox="0 0 55 61" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 14H45.9535V15.561H15.5587V20.5689H26.0816V44.4243H28.6569V19.6207H30.2156V45.9853H24.5229V22.1299H14V14ZM44.4413 18.6726H21.5441V17.1116H46V22.1299H33.9738V46H32.4151V20.5689H44.4413V18.6726Z" fill="white"/>
+<path d="M27.297 51.794H21.4007V17.5448H7.2858V7.206H47.7141V7.96101H8.04918V16.7901H22.1645V51.0393H26.5338V14.3488H27.297V51.794Z" fill="#FFD4D0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00511 6.92833H47.9949V8.23869H8.32999V16.5124H22.4453V50.7617H26.2531V14.0712H27.5778V52.0717H21.12V17.8225H7.00511V6.92833ZM7.56662 7.48368V17.2671H21.6816V51.5163H27.0163V14.6265H26.8146V51.317H21.8838V17.0678H7.76849V7.68334H47.4334V7.48368H7.56662Z" fill="#FFD4D0"/>
+<path d="M32.2871 51.6524H31.5239V16.6495H46.9216V12.7531H16.2222V11.9985H47.6854V17.4041H32.2871V51.6524Z" fill="#FFD4D0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.9415 11.7208H47.9663V17.6818H32.5679V51.9301H31.2432V16.3718H46.6409V13.0308H15.9415V11.7208ZM16.503 12.2761V12.4754H47.2024V16.9272H31.8047V51.3748H32.0064V17.1265H47.4048V12.2761H16.503Z" fill="#FFD4D0"/>
 </g>
 <defs>
-<filter id="filter0_d" x="10" y="14" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="-4" y="0" width="63" height="67" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
