@@ -912,7 +912,7 @@ p.footertext a {
 }
 
 .overview {
-  padding: 10px;
+  padding: 10px 0 0 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 56px;
@@ -2512,6 +2512,7 @@ button.btn {
 
 .v4_myrole_left {
   padding-left: 4%;
+  padding-right: 4%;
   padding-bottom: 2rem;
 }
 
