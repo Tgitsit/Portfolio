@@ -693,9 +693,24 @@ li .margin {
   font-family: montserrat, sans serif;
   font-weight: lighter;
   font-size: 0.75rem;
-  margin-top: 3rem;
   text-align: center;
+  margin-top: 2rem;
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    height: 50vh;
+    background-color: #1B236D;
+    color:  rgb(230, 230, 230);
+    font-family: montserrat, sans serif;
+    font-weight: lighter;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+
 p.footertext {
   font-weight: lighter;
 }
@@ -2500,6 +2515,7 @@ button.btn {
 @media all and (min-width: 578px) {
   .key_takeaways {
     padding-top: 2rem;
+    padding-bottom: 3rem;
   }
 }
 
