@@ -2508,9 +2508,14 @@ button.btn {
   }  
 }
 
-.key_takeaways {
+.key_takeaways  {
   padding-top: 2rem;
 }
+
+.takeaways {
+  padding-bottom: 3rem;
+}
+
 
 @media all and (min-width: 578px) {
   .key_takeaways {
