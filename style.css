@@ -2808,3 +2808,7 @@ padding-top: 8rem;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+.prototype {
+  margin: 0 auto;
+}
