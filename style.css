@@ -970,6 +970,9 @@ p.footertext a {
   }
 
 
+.city_hero {
+  background-image: url(images/01_BusyBus/Mockup_isometric.png);
+}
 
 .idea_hero_grid {
   display: grid;
@@ -1197,6 +1200,15 @@ p.footertext a {
   background-color: #1B236D;
   }
 
+
+  .hifi_background_pink{
+    background-color: #FBD3D2;
+    }
+
+
+      .hifi_background_darkerpink {
+        background-color:#F6B4B2
+      }
 
 .ib_three_column_grid{
   display: grid;
