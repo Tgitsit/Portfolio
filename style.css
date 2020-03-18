@@ -34,6 +34,10 @@ body {
     text-align: left;
   }
 
+  .left_negative_margin {
+    margin-left: -5px;
+  }
+
   .left_center {
     text-align: center;
   }
