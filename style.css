@@ -2254,7 +2254,8 @@ button.btn {
 
 
 .home_featured_content_left,
-.home_featured_content_right {
+.home_featured_content_right,
+.home_featured_content_covid {
   margin: 5%;
   align-items: center;
   justify-content: center;
@@ -2307,6 +2308,13 @@ button.btn {
 
   .home_two_col_content_left {
     margin-left: 25%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: left;
+  }
+
+  .home_featured_content_covid {
+    margin-right: 25%;
     margin-top: 5rem;
     margin-bottom: 5rem;
     text-align: left;
