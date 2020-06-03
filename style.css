@@ -989,6 +989,15 @@ p.footertext a {
   margin-top: 4rem;
 }
 
+.get_tested_hero_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+
 @media all and (min-width: 768px) {
   .idea_hero_grid {
   grid-template-columns: 1fr 3fr;
@@ -997,6 +1006,15 @@ p.footertext a {
   margin-top: 6rem;
   align-items: flex-end;
   }
+
+  .get_tested_hero_grid {
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 56px;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    align-items: flex-end;
+    }
 }
 
 .hero_container {
