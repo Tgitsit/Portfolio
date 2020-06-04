@@ -169,6 +169,10 @@ body {
   margin-bottom: 3rem;
 }
 
+.extrapad_2 {
+  margin-top: 2rem;
+}
+
 .center_text {
 text-align: center;
 }
